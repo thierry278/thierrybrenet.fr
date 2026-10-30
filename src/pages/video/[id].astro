@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { articlesPublies, dateFr } from '../../data/articles';
-import { url, lienRubrique } from '../../data/url';
+import { url, lienRubrique, image } from '../../data/url';
 
 export async function getStaticPaths() {
   const liste = (await articlesPublies()).filter((a) => a.data.type === 'video');
@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const d = article.data;
 ---
-<Base title={d.title} description={d.dek} image={`https://i.ytimg.com/vi/${d.youtube}/hqdefault.jpg`}>
+<Base title={d.title} description={d.dek} image={image(d.image)}>
   <article class="article">
     <a class="eyebrow" href={lienRubrique('coup-doeil')} style="text-decoration:none">Autres formats</a>
     <h1>{d.title}</h1>
