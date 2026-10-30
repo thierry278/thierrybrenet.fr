@@ -1,10 +1,12 @@
 ---
 import { rubrique } from '../data/rubriques';
-import { lienArticle } from '../data/url';
+import { lienArticle, image } from '../data/url';
 const { article } = Astro.props;
 const d = article.data;
+const visuel = image(d.vignette) ?? image(d.image);
 ---
 <a class="card" href={lienArticle(article)}>
+  {visuel && <img class="card-img" src={visuel} alt="" loading="lazy" />}
   <span class="cat">{rubrique(d.rubrique)?.singulier}</span>
   <h2>{d.title}</h2>
   <p>{d.dek}</p>

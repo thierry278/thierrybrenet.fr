@@ -6,8 +6,8 @@ import '@fontsource-variable/bodoni-moda/opsz-italic.css';
 import '@fontsource-variable/inter';
 import '../styles/revue.css';
 
-interface Props { title?: string; description?: string; }
-const { title, description = "Thierry Brenet, rédacteur et journaliste indépendant à Besançon." } = Astro.props;
+interface Props { title?: string; description?: string; image?: string; }
+const { title, image: ogImage, description = "Thierry Brenet, rédacteur et journaliste indépendant à Besançon." } = Astro.props;
 const pageTitle = title ? `${title} — Thierry Brenet` : 'Thierry Brenet — la revue';
 const avion = `<g fill="none" stroke="#a3361d" stroke-linejoin="round" stroke-linecap="round"><path d="M12 50 L88 16 L60 86 L50 60 Z"/><path d="M50 60 L88 16"/></g>`;
 ---
@@ -19,6 +19,12 @@ const avion = `<g fill="none" stroke="#a3361d" stroke-linejoin="round" stroke-li
   <title>{pageTitle}</title>
   <meta name="description" content={description}>
   <meta name="robots" content="noindex">
+  <meta property="og:type" content={title ? 'article' : 'website'}>
+  <meta property="og:title" content={title ?? 'Thierry Brenet'}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site)}>
+  {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.site)}>}
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
   <div class="filet"></div>
