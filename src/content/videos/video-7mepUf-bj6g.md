@@ -1,6 +1,6 @@
 ---
 title: "Le client 2023 en 4 attentes ? Facile !"
-dek: "Vidéo réalisée pour l'AFNOR."
+dek: "Vidéo réalisée pour Parcours croisés (AFNOR)."
 rubrique: coup-doeil
 type: video
 format: Vidéo

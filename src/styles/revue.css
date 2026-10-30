@@ -125,3 +125,14 @@
   .video{position:relative;aspect-ratio:16/9;margin:28px 0}
   .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
   .card-img{display:block;width:calc(100% + 44px);margin:-24px -22px 18px;aspect-ratio:1.91/1;object-fit:cover;background:var(--line)}
+  /* ---------- livres (À propos) ---------- */
+  .livres{display:grid;grid-template-columns:repeat(5,1fr);gap:22px}
+  @media(max-width:900px){.livres{grid-template-columns:repeat(2,1fr)}}
+  .livre{display:flex;flex-direction:column;text-decoration:none;color:var(--ink)}
+  .livre .couv{aspect-ratio:2/3;background:#fff;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:10px;margin-bottom:12px;transition:border-color .16s}
+  .livre .couv img{max-width:100%;max-height:100%;object-fit:contain}
+  .livre h2{font-family:"Bodoni Moda Variable",serif;font-variation-settings:"opsz" 11;font-size:17px;line-height:1.2;margin:0 0 6px}
+  .livre .foot{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#8a877f}
+  a.livre:hover .couv{border-color:var(--accent)}
+  a.livre:hover h2{color:var(--accent)}
+  nav .apropos{margin-left:auto}

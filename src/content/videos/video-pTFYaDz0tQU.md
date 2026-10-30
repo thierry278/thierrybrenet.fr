@@ -1,6 +1,6 @@
 ---
 title: "Protéger les projets et secrets de votre entreprise"
-dek: "Vidéo réalisée pour l'AFNOR."
+dek: "Vidéo réalisée pour Parcours croisés (AFNOR)."
 rubrique: coup-doeil
 type: video
 format: Vidéo

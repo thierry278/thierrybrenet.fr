@@ -40,6 +40,7 @@ const avion = `<g fill="none" stroke="#a3361d" stroke-linejoin="round" stroke-li
       </div>
       <nav aria-label="Rubriques">
         {rubriques.filter((r) => r.nav).map((r) => <a href={lienRubrique(r.slug)}>{r.label}</a>)}
+        <a class="apropos" href={url('a-propos/')}>À propos</a>
       </nav>
     </div>
   </header>

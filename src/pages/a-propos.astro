@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../data/url';
+
+const livres = [
+  { titre: "La diversité dans l'entreprise", annee: '2010', image: 'livre-diversite-brenet.jpg',
+    lien: 'https://www.boutique.afnor.org/livre/la-diversite-dans-l-entreprise-les-bonnes-pratiques/article/650151/fa091042' },
+  { titre: 'E-réputation, votre guide !', annee: '2011', image: 'erputatio-livre-brenet.png',
+    lien: 'https://www.boutique.afnor.org/book/-/article/787720/fa092239' },
+  { titre: 'Management par les processus, simplement !', annee: '2020', image: 'management-par-les-processus-brenet.png',
+    lien: 'https://www.boutique.afnor.org/livre/gestion-par-les-processus-votre-guide-le-processus-un-couteau-suisse-pour-gerer-de-multiples-situations/article/938128/fa199912' },
+  { titre: 'Cyberespace et cyberattaque, comprendre et se protéger !', annee: '2022, avec Lucie Brenet', image: 'cyberespace-et-cyberattaque.jpg' },
+  { titre: 'Et si le plus grand risque était déjà dans votre entreprise ?', annee: '2024', image: 'et-si-le-plus-grand-risque.jpg' },
+];
+const img = (f: string) => url(`images/livres/${f}`).replace(/\/$/, '');
+---
+<Base title="À propos" description="Thierry Brenet, journaliste indépendant et auteur : cinq livres, plus de cent articles et des infographies.">
+  <article class="article">
+    <span class="eyebrow">À propos</span>
+    <h1>Jugez sur pièces</h1>
+    <div class="corps">
+      <p>Une page « À propos » sert d'ordinaire à dire du bien de soi. Je vous propose plus simple : jugez sur pièces.</p>
+      <p>Cinq livres, plus de cent articles et dix-sept infographies vous attendent ici. Ils me présentent mieux que je ne le ferais.</p>
+      <p>Le terrain est large, je le sais. Ma curiosité en est la première responsable. Elle m'a conduit à chercher pourquoi{' '}<a href={url('article/labsence-de-constitution-en-israel-carte-blanche-aux-politiques/')}>Israël n'a jamais écrit sa constitution</a>.
+        Elle m'a fait remonter l'histoire des <a href={url('article/entre-histoire-economie-et-patrimoine-la-fruitiere-a-comte/')}>fruitières à comté du Haut-Doubs</a>.
+        Elle m'a aussi valu trois longues conversations avec Benjamin Rossi sur{' '}<a href={url('article/le-quotidien-dun-hopital-ordinaire-episode-1/')}>le quotidien d'un hôpital ordinaire</a>.</p>
+      <p>Si l'un de ces sujets vous retient, la suite est dans les rubriques. Si c'est un autre, écrivez-moi.</p>
+    </div>
+  </article>
+
+  <section class="fil" aria-label="Livres">
+    <div class="fil-head"><span class="eyebrow">Les livres</span><span class="all">AFNOR Éditions</span></div>
+    <div class="livres">
+      {livres.map((l) => {
+        const Tag = l.lien ? 'a' : 'div';
+        return (
+          <Tag class="livre" href={l.lien} target={l.lien ? '_blank' : undefined} rel={l.lien ? 'noopener' : undefined}>
+            <div class="couv"><img src={img(l.image)} alt={`Couverture : ${l.titre}`} loading="lazy" /></div>
+            <h2>{l.titre}</h2>
+            <span class="foot">{l.annee}{l.lien ? ' · Commander →' : ''}</span>
+          </Tag>
+        );
+      })}
+    </div>
+  </section>
+</Base>
