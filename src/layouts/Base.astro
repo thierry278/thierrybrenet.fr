@@ -9,7 +9,7 @@ import '../styles/revue.css';
 interface Props { title?: string; description?: string; }
 const { title, description = "Thierry Brenet, rédacteur et journaliste indépendant à Besançon." } = Astro.props;
 const pageTitle = title ? `${title} — Thierry Brenet` : 'Thierry Brenet — la revue';
-const avion = `<g fill="none" stroke="#c1272d" stroke-linejoin="round" stroke-linecap="round"><path d="M12 50 L88 16 L60 86 L50 60 Z"/><path d="M50 60 L88 16"/></g>`;
+const avion = `<g fill="none" stroke="#e85d1c" stroke-linejoin="round" stroke-linecap="round"><path d="M12 50 L88 16 L60 86 L50 60 Z"/><path d="M50 60 L88 16"/></g>`;
 ---
 <!doctype html>
 <html lang="fr">
@@ -25,11 +25,12 @@ const avion = `<g fill="none" stroke="#c1272d" stroke-linejoin="round" stroke-li
   <header>
     <div class="wrap">
       <div class="head-top">
-        <a class="brandline" href={url()}>
-          <svg class="plane" viewBox="0 0 100 100" aria-hidden="true" stroke-width="7" set:html={avion} />
-          <span class="name">Thierry Brenet</span>
-        </a>
-        <div class="meta-plate">Besançon<br>Rédacteur · Journaliste<br>Curieux de tout</div>
+        <a class="titre-site" href={url()}>Thierry Brenet</a>
+        <a class="logo" href={url()}><img src={url('images/logo-thierrybrenet.png').replace(/\/$/, '')} alt="Thierrybrenet.fr" width="544" height="265"></a>
+        <div class="signature">
+          <span>Journaliste indépendant</span>
+          <span>Auteur et serial writer</span>
+        </div>
       </div>
       <nav aria-label="Rubriques">
         {rubriques.filter((r) => r.nav).map((r) => <a href={lienRubrique(r.slug)}>{r.label}</a>)}
@@ -39,7 +40,7 @@ const avion = `<g fill="none" stroke="#c1272d" stroke-linejoin="round" stroke-li
 
   <div class="wrap">
     <div class="ghost" aria-hidden="true">
-      <svg viewBox="0 0 100 100" stroke-width="6" set:html={avion} />
+      <img src={url('images/avion.png').replace(/\/$/, '')} alt="">
     </div>
     <main><slot /></main>
   </div>

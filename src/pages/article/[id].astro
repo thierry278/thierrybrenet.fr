@@ -23,6 +23,9 @@ const { Content } = await render(article);
     <div class="byline">{dateFr(d.date)}{d.minutes ? ` · ${d.minutes} min de lecture` : ''}</div>
     {visuel && <img class="visuel" src={visuel} alt="" loading="eager" />}
     <div class="corps"><Content /></div>
-    <a class="retour" href={url()}>← Retour à la revue</a>
+    <div class="pied-article">
+      <a class="retour" href={url()}>← Retour à la revue</a>
+      <img class="signature-logo" src={url('images/logo-thierrybrenet.png').replace(/\/$/, '')} alt="Thierry Brenet" width="544" height="265">
+    </div>
   </article>
 </Base>

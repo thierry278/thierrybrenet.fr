@@ -19,6 +19,9 @@ const pdf = image(d.pdf);
     <div class="byline">Infographie · {dateFr(d.date)}</div>
     {visuel ? <img class="visuel" src={visuel} alt={d.title} /> : <p class="vide">L'image arrivera avec la sauvegarde complète du site.</p>}
     {pdf && <p><a class="retour" href={pdf}>Télécharger en PDF</a></p>}
-    <a class="retour" href={url()}>← Retour à la revue</a>
+    <div class="pied-article">
+      <a class="retour" href={url()}>← Retour à la revue</a>
+      <img class="signature-logo" src={url('images/logo-thierrybrenet.png').replace(/\/$/, '')} alt="Thierry Brenet" width="544" height="265">
+    </div>
   </article>
 </Base>
