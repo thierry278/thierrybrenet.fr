@@ -136,3 +136,8 @@
   a.livre:hover .couv{border-color:var(--accent)}
   a.livre:hover h2{color:var(--accent)}
   nav .apropos{margin-left:auto}
+  .contact-ligne{font-family:"Bodoni Moda Variable",serif;font-variation-settings:"opsz" 11;font-size:28px}
+  .a-completer{background:#fff3c4;padding:0 4px}
+  footer .liens{display:flex;gap:18px;font-size:12px;letter-spacing:.04em}
+  footer .liens a{color:var(--ink-soft);text-decoration:none}
+  footer .liens a:hover{color:var(--accent)}
