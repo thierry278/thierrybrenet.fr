@@ -2,7 +2,7 @@
 title: "« Haute Valeur environnementale », Késako ?"
 dek: "Au hasard des étals, peut-être avez-vous vu apparaître de nouvelles étiquettes sur des produits alimentaires, telles que « Haute valeur environnementale » ou « certification environnementale ». Pour mieux comprendre ces mentions, voici quelques points de repère, le temps d’un café…"
 accroche: "Parmi les labels \"alimentaires\", connaissez-vous la << Haute Valeur Environnementale >> ?"
-rubrique: le-temps-dun-cafe
+rubrique: entreprises
 type: article
 date: 2021-05-18
 minutes: 2

@@ -2,7 +2,7 @@
 title: "Et si, le temps d’un café, je vous expliquais la mécanique quantique ?"
 dek: "Il y a des mots dont le sens précis nous échappe. Par manque de temps, souvent, on ne va pas plus loin. C’est le cas de quantique, comme dans « ordinateur quantique ». Je vous propose aujourd’hui de voir ce qui se cache derrière ce mot et même de rencontrer un chat. Vous verrez, c’est simple."
 accroche: "Des mots débarquent dans nos vies sans que nous mesurions vraiment leur portée. Exemple: quantique"
-rubrique: le-temps-dun-cafe
+rubrique: sciences-sante
 type: article
 date: 2022-02-21
 minutes: 4

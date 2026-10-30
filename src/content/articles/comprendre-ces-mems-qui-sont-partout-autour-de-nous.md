@@ -2,7 +2,7 @@
 title: "Comprendre ces « MEMS » qui sont partout autour de nous"
 dek: "Une entreprise implantée dans ma ville a été distinguée au CES de Las Vegas. Cette entreprise travaille sur les MEMS. Ce terme n’est pas encore rentré dans notre vocabulaire de tous les jours. Aussi, m’a-t-il semblé intéressant de faire un tour rapide de cette réalité."
 accroche: "On connaissait les puces électroniques, mais les MEMS, vous connaissez"
-rubrique: le-temps-dun-cafe
+rubrique: sciences-sante
 type: article
 date: 2024-01-22
 minutes: 2

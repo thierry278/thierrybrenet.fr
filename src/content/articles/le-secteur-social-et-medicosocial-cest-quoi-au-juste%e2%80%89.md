@@ -2,7 +2,7 @@
 title: "Le secteur social et médicosocial, c’est quoi au juste ?"
 dek: "Quand j’explique mes différents secteurs d’intervention, je vois toujours un flou dans le regard de mes interlocuteurs lorsque je parle du secteur social et médico-social. Avec le temps, j’ai fini par simplifier la définition que j’en donne — des établissements en charge de publics fragiles — et donner comme exemple les EHPAD."
 accroche: "A l'exception des EHPAD, savez-vous ce qu'est le secteur social et médicosocial"
-rubrique: le-temps-dun-cafe
+rubrique: sciences-sante
 type: article
 date: 2021-06-04
 minutes: 2

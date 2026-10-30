@@ -6,7 +6,7 @@ const liste = await articlesPublies();
 ---
 <Base title="Sommaire">
   <section class="fil">
-    <div class="fil-head"><span class="eyebrow">Tout le sommaire</span><span class="all">{liste.length} articles</span></div>
+    <div class="fil-head"><span class="eyebrow">Tout le sommaire</span><span class="all">{liste.length} publications</span></div>
     <div class="grid">{liste.map((a) => <Carte article={a} />)}</div>
   </section>
 </Base>

@@ -3,7 +3,7 @@ import { rubrique } from '../data/rubriques';
 import { lienArticle, image } from '../data/url';
 const { article } = Astro.props;
 const d = article.data;
-const visuel = image(d.vignette) ?? image(d.image);
+const visuel = image(d.vignette) ?? image(d.image) ?? (d.youtube ? `https://i.ytimg.com/vi/${d.youtube}/hqdefault.jpg` : undefined);
 ---
 <a class="card" href={lienArticle(article)}>
   {visuel && <img class="card-img" src={visuel} alt="" loading="lazy" />}

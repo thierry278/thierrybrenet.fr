@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import { articlesPublies, dateFr } from '../../data/articles';
+import { url, lienRubrique } from '../../data/url';
+
+export async function getStaticPaths() {
+  const liste = (await articlesPublies()).filter((a) => a.data.type === 'video');
+  return liste.map((article) => ({ params: { id: article.id }, props: { article } }));
+}
+const { article } = Astro.props;
+const d = article.data;
+---
+<Base title={d.title} description={d.dek} image={`https://i.ytimg.com/vi/${d.youtube}/hqdefault.jpg`}>
+  <article class="article">
+    <a class="eyebrow" href={lienRubrique('coup-doeil')} style="text-decoration:none">Autres formats</a>
+    <h1>{d.title}</h1>
+    <p class="dek">{d.dek}</p>
+    <div class="video"><iframe src={`https://www.youtube-nocookie.com/embed/${d.youtube}`} title={d.title} loading="lazy" allowfullscreen allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+    <div class="pied-article">
+      <a class="retour" href={url()}>← Retour à la revue</a>
+      <img class="signature-logo" src={url('images/logo-thierrybrenet.png').replace(/\/$/, '')} alt="Thierry Brenet" width="544" height="265">
+    </div>
+  </article>
+</Base>

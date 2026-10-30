@@ -2,7 +2,7 @@
 title: "Le franc CFA est mort, vive l’eco !"
 dek: "Décrié par certains depuis des décennies, encensé par d’autres, le franc CFA semble bien décidé … à mourir dans les mois qui viennent. Mourir, pour mieux renaître sous un autre nom, moins connoté. C’était l’occasion pour, le temps d’un café, faire un tour rapide de ce sujet."
 accroche: "Le franc CFA, souvenir du passé colonial français ? Pas seulement"
-rubrique: le-temps-dun-cafe
+rubrique: geopolitique
 type: article
 date: 2021-05-05
 minutes: 2

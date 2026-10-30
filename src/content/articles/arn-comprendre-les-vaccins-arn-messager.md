@@ -2,7 +2,7 @@
 title: "Comprendre les vaccins « ARN messager »"
 dek: "Pour mener à bien certains travaux, je dis souvent à mes étudiants « Commencez par faire un QQOQCP ». C’est en effet un bon moyen de faire le premier tour d’un sujet, ou être à même de comprendre une problématique. J’ai donc décidé d’appliquer cela à la compréhension de l’ARN messager."
 accroche: "« ARN messager\", un de ces mots-valises qui ont pris d’assaut nos conversations..."
-rubrique: le-temps-dun-cafe
+rubrique: sciences-sante
 type: article
 date: 2021-03-14
 minutes: 2

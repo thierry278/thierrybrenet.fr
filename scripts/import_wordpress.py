@@ -38,8 +38,20 @@ RUBRIQUES = {
     'strategie': 'entreprises', 'qualite': 'entreprises', 'economie': 'entreprises',
     'sciences': 'sciences-sante', 'sante': 'sciences-sante',
     'litterature': 'livres',
-    'le-temps-dun-cafe': 'le-temps-dun-cafe',
+    'le-temps-dun-cafe': 'le-temps-dun-cafe',  # puis réparti par sujet (CAFE)
 }
+
+# « Le temps d'un café » est réparti par sujet (décision du 30/10/2026).
+CAFE = {
+    'aoc': 'entreprises', 'haute-valeur': 'entreprises', 'social': 'sciences-sante',
+    'arn': 'sciences-sante', 'mems': 'sciences-sante', 'quantique': 'sciences-sante',
+    'franc-cfa': 'geopolitique', 'mielcarek': 'rencontres',
+}
+
+
+def rubrique_cafe(slug):
+    return next((r for cle, r in CAFE.items() if cle in slug), 'divers')
+
 
 YT = r'(?:https?:)?//(?:www\.)?(?:youtube\.com/(?:embed/|watch\?v=)|youtu\.be/)([\w-]{11})[^\s"<]*'
 
@@ -126,7 +138,7 @@ def main(chemin):
                 'title': yaml(titre),
                 'dek': yaml(html.unescape(meta.get('descriptif', '')) or titre),
                 'accroche': yaml(html.unescape(meta.get('accroche', ''))),
-                'rubrique': RUBRIQUES.get(slugify(cats[0]), 'divers') if cats else 'divers',
+                'rubrique': (RUBRIQUES.get(slugify(cats[0]), 'divers') if cats else 'divers'),
                 'type': 'article',
                 'date': date,
                 'minutes': max(1, round(mots / 230)),
@@ -150,6 +162,8 @@ def main(chemin):
                 'vignette': yaml(upload(meta.get('miniature_infographie'))),
                 'pdf': yaml(upload(meta.get('pdf_infographie'))),
             }
+        if fm['rubrique'] == 'le-temps-dun-cafe':
+            fm['rubrique'] = rubrique_cafe(slug)
         fm['ancienne_url'] = yaml(lien)
         if tags:
             fm['hashtags'] = '[' + ', '.join(yaml(t) for t in tags) + ']'

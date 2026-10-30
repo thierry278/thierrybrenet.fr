@@ -2,7 +2,7 @@
 title: "Romain Mielcarek, le temps d'un café"
 dek: "À l'heure où notre regard est tourné vers l'Est de l'Europe, à juste raison, Romain Mielcarek - avec son livre Les Moujiks - nous parle d'un autre monde inquiétant, le monde des espions.  . Il nous a raconté dans son livre sa relation avec des espions russes. Pour le plaisir de prolonger l'échange, il répond dans ce 2° article à quelques questions."
 accroche: "Romain Mielcarek, auteur des Moujiks répond à quelques questions"
-rubrique: le-temps-dun-cafe
+rubrique: rencontres
 type: article
 date: 2025-03-18
 minutes: 5

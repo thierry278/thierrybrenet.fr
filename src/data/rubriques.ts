@@ -7,8 +7,7 @@ export const rubriques = [
   { slug: 'entreprises', label: 'Entreprises', singulier: 'Entreprises', nav: true },
   { slug: 'sciences-sante', label: 'Sciences et santé', singulier: 'Sciences et santé', nav: true },
   { slug: 'livres', label: 'Livres', singulier: 'Livres', nav: true },
-  { slug: 'coup-doeil', label: "En un coup d'œil", singulier: "En un coup d'œil", nav: true },
-  { slug: 'le-temps-dun-cafe', label: "Le temps d'un café", singulier: "Le temps d'un café", nav: false },
+  { slug: 'coup-doeil', label: 'Autres formats', singulier: 'Autres formats', nav: true },
   { slug: 'divers', label: 'Divers', singulier: 'Divers', nav: false },
 ] as const;
 

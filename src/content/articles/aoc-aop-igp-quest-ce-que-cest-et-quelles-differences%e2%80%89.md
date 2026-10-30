@@ -2,7 +2,7 @@
 title: "AOC, AOP, IGP, qu’est-ce que c’est et quelles différences ?"
 dek: "Camembert, feta, couteaux de Laguiole, souvent lorsque nous entendons parler de tels produits, émergent les acronymes AOC, AOP, ou encore IGP. Si ces termes nous sont familiers, il est pour autant difficile de les définir. Le temps de votre café, quelques explications simples pour les différencier."
 accroche: "AOC, AOP et IGP, des signes de qualité en fait !"
-rubrique: le-temps-dun-cafe
+rubrique: entreprises
 type: article
 date: 2021-04-13
 minutes: 2

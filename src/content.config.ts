@@ -10,7 +10,8 @@ const articles = defineCollection({
     dek: z.string(),
     accroche: z.string().optional(),
     rubrique: z.enum(slugsRubriques),
-    type: z.enum(['article', 'infographie']).default('article'),
+    type: z.enum(['article', 'infographie', 'video']).default('article'),
+    youtube: z.string().optional(),
     format: z.string().default('Article'),
     date: z.coerce.date(),
     minutes: z.number().optional(),
@@ -25,4 +26,9 @@ const articles = defineCollection({
   }),
 });
 
-export const collections = { articles };
+const videos = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/videos' }),
+  schema: articles.schema,
+});
+
+export const collections = { articles, videos };
