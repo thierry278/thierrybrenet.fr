@@ -15,7 +15,7 @@ const r = rubrique(d.rubrique);
 const visuel = image(d.image);
 const { Content } = await render(article);
 ---
-<Base title={d.title} description={d.dek} image={visuel}>
+<Base title={d.title} description={d.dek} image={visuel} date={d.date}>
   <article class="article">
     <a class="eyebrow" href={lienRubrique(d.rubrique)} style="text-decoration:none">{r?.label}</a>
     <h1>{d.title}</h1>
