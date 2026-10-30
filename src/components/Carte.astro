@@ -1,0 +1,12 @@
+---
+import { rubrique } from '../data/rubriques';
+import { lienArticle } from '../data/url';
+const { article } = Astro.props;
+const d = article.data;
+---
+<a class="card" href={lienArticle(article.id)}>
+  <span class="cat">{rubrique(d.rubrique)?.singulier}</span>
+  <h2>{d.title}</h2>
+  <p>{d.dek}</p>
+  <span class="foot">{d.format}{d.minutes ? ` · ${d.minutes} min` : ''}</span>
+</a>

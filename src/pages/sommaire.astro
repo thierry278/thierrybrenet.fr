@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import Carte from '../components/Carte.astro';
+import { articlesPublies } from '../data/articles';
+const liste = await articlesPublies();
+---
+<Base title="Sommaire">
+  <section class="fil">
+    <div class="fil-head"><span class="eyebrow">Tout le sommaire</span><span class="all">{liste.length} articles</span></div>
+    <div class="grid">{liste.map((a) => <Carte article={a} />)}</div>
+  </section>
+</Base>

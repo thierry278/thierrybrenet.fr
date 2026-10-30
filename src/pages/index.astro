@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import Carte from '../components/Carte.astro';
+import { articlesPublies } from '../data/articles';
+import { rubrique } from '../data/rubriques';
+import { url, lienArticle } from '../data/url';
+
+const articles = await articlesPublies();
+// La une : l'article le plus récent du vivier « une ».
+const une = articles.find((a) => a.data.une) ?? articles[0];
+const reste = articles.filter((a) => a !== une);
+const aLire = reste.slice(0, 3);
+const fil = reste.slice(3, 12);
+---
+<Base>
+  {une && (
+    <section class="lead" aria-label="À la une">
+      <article>
+        <span class="eyebrow kicker">À la une · {rubrique(une.data.rubrique)?.label}</span>
+        <h1>{une.data.title}</h1>
+        <p class="dek">{une.data.dek}</p>
+        <a class="read" href={lienArticle(une.id)}>Lire l'article →</a>
+        <div class="byline">{une.data.format}{une.data.minutes ? ` · ${une.data.minutes} min` : ''}</div>
+      </article>
+      {aLire.length > 0 && (
+        <aside class="lead-aside" aria-label="À lire aussi">
+          <span class="eyebrow">À lire aussi</span>
+          {aLire.map((a) => (
+            <div class="aside-item"><a href={lienArticle(a.id)}><span class="cat">{rubrique(a.data.rubrique)?.singulier}</span><h3>{a.data.title}</h3></a></div>
+          ))}
+        </aside>
+      )}
+    </section>
+  )}
+
+  {fil.length > 0 && (
+    <section class="fil" aria-label="Derniers articles">
+      <div class="fil-head">
+        <span class="eyebrow">Le fil</span>
+        <a class="all" href={url('sommaire/')}>Tout le sommaire →</a>
+      </div>
+      <div class="grid">{fil.map((a) => <Carte article={a} />)}</div>
+    </section>
+  )}
+</Base>

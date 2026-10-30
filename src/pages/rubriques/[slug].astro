@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import Carte from '../../components/Carte.astro';
+import { articlesPublies } from '../../data/articles';
+import { rubriques } from '../../data/rubriques';
+
+export async function getStaticPaths() {
+  return rubriques.map((r) => ({ params: { slug: r.slug }, props: { r } }));
+}
+const { r } = Astro.props;
+const liste = (await articlesPublies()).filter((a) => a.data.rubrique === r.slug);
+---
+<Base title={r.label}>
+  <section class="fil">
+    <div class="fil-head"><span class="eyebrow">{r.label}</span><span class="all">{liste.length} article{liste.length > 1 ? 's' : ''}</span></div>
+    {liste.length ? <div class="grid">{liste.map((a) => <Carte article={a} />)}</div> : <p class="vide">Les articles de cette rubrique arrivent avec l'import.</p>}
+  </section>
+</Base>
