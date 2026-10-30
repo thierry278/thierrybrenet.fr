@@ -1,6 +1,7 @@
 ---
 import { rubriques } from '../data/rubriques';
 import { url, lienRubrique } from '../data/url';
+import { citation, devise } from '../data/citation';
 import '@fontsource-variable/bodoni-moda/opsz.css';
 import '@fontsource-variable/bodoni-moda/opsz-italic.css';
 import '@fontsource-variable/inter';
@@ -63,7 +64,9 @@ const avion = `<g fill="none" stroke="#a3361d" stroke-linejoin="round" stroke-li
   <footer>
     <div class="filet"></div>
     <div class="fwrap">
-      <span class="sig">Redresser les vétilles — quel que soit le pays, l'époque ou la personne.</span>
+      {citation.texte
+        ? <span class="sig">« {citation.texte} »<small class="source-citation">{citation.source}</small></span>
+        : <span class="sig">{devise}</span>}
       <span class="liens"><a href={url('contact/')}>Contact</a><a href={url('mentions-legales/')}>Mentions légales</a></span>
       <span class="c"><svg class="plane-sm" viewBox="0 0 100 100" aria-hidden="true" stroke-width="8" set:html={avion} /> © Thierry Brenet · Besançon</span>
     </div>
