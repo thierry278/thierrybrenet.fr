@@ -1,8 +1,8 @@
-// Citation affichée en pied de page.
+e// Citation affichée en pied de page.
 // Pour la changer : remplir « texte » entre les guillemets, sans toucher au reste.
 // Si « texte » est vide, le pied de page affiche la devise du site.
 export const citation = {
-  texte: 'ux des réponses, donc je fabrique des questions',
+  texte: 'Je veux des réponses, donc je fabrique des questions',
   source: 'Gaël Faye, « La Cause », Éphémère, 2022',
 };
 
