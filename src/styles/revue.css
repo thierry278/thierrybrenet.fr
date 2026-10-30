@@ -141,3 +141,8 @@
   footer .liens{display:flex;gap:18px;font-size:12px;letter-spacing:.04em}
   footer .liens a{color:var(--ink-soft);text-decoration:none}
   footer .liens a:hover{color:var(--accent)}
+  .livre-tete{display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:start;margin:14px 0 30px}
+  .livre-couv{width:100%;height:auto;border:1px solid var(--line);background:#fff}
+  .fiche-livre h1{margin-top:0}
+  .fiche-livre .read{display:inline-flex;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.09em;color:#fff;background:var(--accent);padding:11px 18px;text-decoration:none;margin-top:6px}
+  @media(max-width:640px){.livre-tete{grid-template-columns:120px 1fr;gap:18px}}

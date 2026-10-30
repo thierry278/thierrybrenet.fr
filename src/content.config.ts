@@ -31,4 +31,18 @@ const videos = defineCollection({
   schema: articles.schema,
 });
 
-export const collections = { articles, videos };
+const livres = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/livres' }),
+  schema: z.object({
+    title: z.string(),
+    annee: z.string(),
+    image: z.string(),
+    ordre: z.number(),
+    coauteur: z.string().optional(),
+    lien: z.string().optional(),
+    accroche: z.string().optional(),
+    articles: z.array(z.string()).optional(),
+  }),
+});
+
+export const collections = { articles, videos, livres };

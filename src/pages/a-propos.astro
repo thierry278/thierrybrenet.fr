@@ -1,17 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import { url } from '../data/url';
+import { getCollection } from 'astro:content';
 
-const livres = [
-  { titre: "La diversité dans l'entreprise", annee: '2010', image: 'livre-diversite-brenet.jpg',
-    lien: 'https://www.boutique.afnor.org/livre/la-diversite-dans-l-entreprise-les-bonnes-pratiques/article/650151/fa091042' },
-  { titre: 'E-réputation, votre guide !', annee: '2011', image: 'erputatio-livre-brenet.png',
-    lien: 'https://www.boutique.afnor.org/book/-/article/787720/fa092239' },
-  { titre: 'Management par les processus, simplement !', annee: '2020', image: 'management-par-les-processus-brenet.png',
-    lien: 'https://www.boutique.afnor.org/livre/gestion-par-les-processus-votre-guide-le-processus-un-couteau-suisse-pour-gerer-de-multiples-situations/article/938128/fa199912' },
-  { titre: 'Cyberespace et cyberattaque, comprendre et se protéger !', annee: '2022, avec Lucie Brenet', image: 'cyberespace-et-cyberattaque.jpg' },
-  { titre: 'Et si le plus grand risque était déjà dans votre entreprise ?', annee: '2024', image: 'et-si-le-plus-grand-risque.jpg' },
-];
+const livres = (await getCollection('livres')).sort((x, y) => x.data.ordre - y.data.ordre);
 const img = (f: string) => url(`images/livres/${f}`).replace(/\/$/, '');
 ---
 <Base title="À propos" description="Thierry Brenet, journaliste indépendant et auteur : cinq livres, plus de cent articles et des infographies.">
@@ -31,16 +23,13 @@ const img = (f: string) => url(`images/livres/${f}`).replace(/\/$/, '');
   <section class="fil" aria-label="Livres">
     <div class="fil-head"><span class="eyebrow">Les livres</span><span class="all">AFNOR Éditions</span></div>
     <div class="livres">
-      {livres.map((l) => {
-        const Tag = l.lien ? 'a' : 'div';
-        return (
-          <Tag class="livre" href={l.lien} target={l.lien ? '_blank' : undefined} rel={l.lien ? 'noopener' : undefined}>
-            <div class="couv"><img src={img(l.image)} alt={`Couverture : ${l.titre}`} loading="lazy" /></div>
-            <h2>{l.titre}</h2>
-            <span class="foot">{l.annee}{l.lien ? ' · Commander →' : ''}</span>
-          </Tag>
-        );
-      })}
+      {livres.map((l) => (
+        <a class="livre" href={url(`livre/${l.id}/`)}>
+          <div class="couv"><img src={img(l.data.image)} alt={`Couverture : ${l.data.title}`} loading="lazy" /></div>
+          <h2>{l.data.title}</h2>
+          <span class="foot">{l.data.annee}{l.data.coauteur ? `, avec ${l.data.coauteur}` : ''}</span>
+        </a>
+      ))}
     </div>
   </section>
 </Base>

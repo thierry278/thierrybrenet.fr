@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import Carte from '../../components/Carte.astro';
+import { getCollection, render } from 'astro:content';
+import { articlesPublies } from '../../data/articles';
+import { url } from '../../data/url';
+
+export async function getStaticPaths() {
+  const livres = await getCollection('livres');
+  return livres.map((livre) => ({ params: { id: livre.id }, props: { livre } }));
+}
+const { livre } = Astro.props;
+const d = livre.data;
+const { Content } = await render(livre);
+const tous = await articlesPublies();
+const lies = (d.articles ?? []).map((id) => tous.find((a) => a.id === id)).filter(Boolean);
+const couv = url(`images/livres/${d.image}`).replace(/\/$/, '');
+---
+<Base title={d.title} description={d.accroche ?? d.title} image={couv}>
+  <article class="article fiche-livre">
+    <a class="eyebrow" href={url('a-propos/')} style="text-decoration:none">Les livres</a>
+    <div class="livre-tete">
+      <img class="livre-couv" src={couv} alt={`Couverture : ${d.title}`} />
+      <div>
+        <h1>{d.title}</h1>
+        {d.accroche && <p class="dek">{d.accroche}</p>}
+        <div class="byline">AFNOR Éditions · {d.annee}{d.coauteur ? ` · avec ${d.coauteur}` : ''}</div>
+        {d.lien && <a class="read" href={d.lien} target="_blank" rel="noopener">Commander le livre →</a>}
+      </div>
+    </div>
+    <div class="corps"><Content /></div>
+  </article>
+  {lies.length > 0 && (
+    <section class="fil" aria-label="Pour aller plus loin">
+      <div class="fil-head"><span class="eyebrow">Pour aller plus loin</span></div>
+      <div class="grid">{lies.map((a) => <Carte article={a} />)}</div>
+    </section>
+  )}
+</Base>
