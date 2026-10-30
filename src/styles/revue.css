@@ -5,8 +5,8 @@
     --ink:#131211;          /* noir plus franc qu'avant */
     --ink-soft:#55534e;
     --line:#e2ded4;
-    --accent:#e85d1c;       /* le rouge de ton avion : l'accent ose, enfin */
-    --accent-dk:#b8430f;
+    --accent:#a3361d;       /* le rouge de ton avion : l'accent ose, enfin */
+    --accent-dk:#7f2814;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--paper);color:var(--ink);
