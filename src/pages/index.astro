@@ -19,14 +19,14 @@ const fil = reste.slice(3, 12);
         <span class="eyebrow kicker">À la une · {rubrique(une.data.rubrique)?.label}</span>
         <h1>{une.data.title}</h1>
         <p class="dek">{une.data.dek}</p>
-        <a class="read" href={lienArticle(une.id)}>Lire l'article →</a>
+        <a class="read" href={lienArticle(une)}>Lire l'article →</a>
         <div class="byline">{une.data.format}{une.data.minutes ? ` · ${une.data.minutes} min` : ''}</div>
       </article>
       {aLire.length > 0 && (
         <aside class="lead-aside" aria-label="À lire aussi">
           <span class="eyebrow">À lire aussi</span>
           {aLire.map((a) => (
-            <div class="aside-item"><a href={lienArticle(a.id)}><span class="cat">{rubrique(a.data.rubrique)?.singulier}</span><h3>{a.data.title}</h3></a></div>
+            <div class="aside-item"><a href={lienArticle(a)}><span class="cat">{rubrique(a.data.rubrique)?.singulier}</span><h3>{a.data.title}</h3></a></div>
           ))}
         </aside>
       )}

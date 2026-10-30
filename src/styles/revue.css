@@ -105,3 +105,4 @@
 
   /* Bodoni : on force une taille optique basse pour épaissir les déliés */
   .name,.lead h1,.aside-item h3,.card h2,footer .sig,.article h1,.corps h2{font-optical-sizing:none;font-variation-settings:"opsz" 11}
+  .visuel{display:block;width:100%;height:auto;margin:0 0 30px}

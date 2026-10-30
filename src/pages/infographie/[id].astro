@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import { articlesPublies, dateFr } from '../../data/articles';
+import { url, lienRubrique, image } from '../../data/url';
+
+export async function getStaticPaths() {
+  const liste = (await articlesPublies()).filter((a) => a.data.type === 'infographie');
+  return liste.map((article) => ({ params: { id: article.id }, props: { article } }));
+}
+const { article } = Astro.props;
+const d = article.data;
+const visuel = image(d.image);
+const pdf = image(d.pdf);
+---
+<Base title={d.title}>
+  <article class="article">
+    <a class="eyebrow" href={lienRubrique('coup-doeil')} style="text-decoration:none">En un coup d'œil</a>
+    <h1>{d.title}</h1>
+    <div class="byline">Infographie · {dateFr(d.date)}</div>
+    {visuel ? <img class="visuel" src={visuel} alt={d.title} /> : <p class="vide">L'image arrivera avec la sauvegarde complète du site.</p>}
+    {pdf && <p><a class="retour" href={pdf}>Télécharger en PDF</a></p>}
+    <a class="retour" href={url()}>← Retour à la revue</a>
+  </article>
+</Base>
