@@ -2,7 +2,7 @@
 title: "L’impossible roman de l’honorable M. K. — un livre et une double tension"
 dek: "Pour celles et ceux qui fuient l’autofiction — et ils ont souvent de bonnes raisons — voici un livre qui leur tend un piège. Taleb Alrefaï y met son vrai nom, sa vraie vie, son vrai pays. Un double piège, même : celui d’un roman qui porte en lui deux suspenses superposés, et dont le second est bien plus troublant que le premier."
 accroche: "Taleb Arlefaï, écrivain  ou personnage de fiction ? Peintre d'un homme ou d'une société, etc ?"
-rubrique: litterature
+rubrique: livres
 type: article
 date: 2026-05-07
 minutes: 2

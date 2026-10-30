@@ -2,7 +2,7 @@
 title: "Définition de la maltraitance, nouvel outil de GRH (1/2)"
 dek: "« Une nouvelle définition de la maltraitance ? Certainement utile pour le secteur médico-social » … !  S’arrêter là serait faire fausse route. Lisez-la et vous verrez. Les termes utilisés en font, à mon sens, un outil universel que devraient pouvoir utiliser tous les DRH."
 accroche: "Comment aborder la maltraitance ? Avec une définition universelle !"
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-09-13
 minutes: 2

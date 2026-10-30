@@ -2,7 +2,7 @@
 title: "Votre vie privée est notre priorité. Ah bon ?"
 dek: "Partageant ma vie professionnelle entre l’univers des entreprises et celui, virtuel, d’internet, je ne peux que rapprocher ce que je vis et vois dans ces deux mondes. Une certaine stupeur en naît régulièrement devant la capacité d’organisations à ignorer avec leur cerveau droit, ce que fait ou veut le gauche..."
 accroche: "Jardin intérieur, vie privée, données personnelles, comment les protéger ?"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-08-03
 minutes: 2

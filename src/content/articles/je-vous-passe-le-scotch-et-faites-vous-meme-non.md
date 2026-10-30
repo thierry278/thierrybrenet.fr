@@ -2,7 +2,7 @@
 title: "Je vous passe le scotch et faites vous-même ? Non !"
 dek: "Entre entreprises, et même à l’intérieur de celles-ci, les relations gagnent à être placées dans un cadre client-fournisseur. Cela signifie que l’Autre est un client dont on doit connaître les attentes. Une telle approche permet d’améliorer la satisfaction du client jusque dans le commerce !"
 accroche: "Pour que votre qualité  existe, vous devez \"connaître\" vos clients"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-03-03
 minutes: 2

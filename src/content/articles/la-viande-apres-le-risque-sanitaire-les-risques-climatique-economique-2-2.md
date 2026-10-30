@@ -2,7 +2,7 @@
 title: "La viande, après le risque sanitaire, les risques climatique & économique (2/2)"
 dek: "La viande, comme nous l’avons vu précédemment, nous fait courir un risque sanitaire (cancer). Au-delà de ce premier risque, deux autres sont avérés. Le premier est d’ordre climatique. Quant au second, par ce que nous mangeons de plus en plus de ‘‘mauvaises’’ viandes transformées, il est économique, par la mise en danger des filières de qualité. Exp"
 accroche: "Individuellement, nous mangeons trop de viande. Collectivement, c'est un désastre..."
-rubrique: sante
+rubrique: sciences-sante
 type: article
 date: 2023-10-02
 minutes: 2

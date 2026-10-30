@@ -2,7 +2,7 @@
 title: "Magnet Hospitals, où chercher les outils ?"
 dek: "Travaillant sur le sujet des « Magnet Hospital », je le vois épisodiquement ressortir dans les médias, mais beaucoup moins au sein d’organisations en France ! Pour moi une double raison peut expliquer ce mystère. Je me propose, aujourd’hui, de m’attaquer à la plus rationnelle, un certain manque d’outils."
 accroche: "Vous vous intéressez aux Magnet Hospitals ? Pensez aux outils de l'ISO 90001"
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-08-10
 minutes: 2

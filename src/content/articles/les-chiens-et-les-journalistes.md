@@ -2,7 +2,7 @@
 title: "Les chiens et les journalistes"
 dek: "Il est des polémiques que je ne sais comment aborder. Et puis, vient le déclic. Ici, c’est un vieux dicton qui me permet de revenir sur le doute que porte un Président sur le travail de journalistes. Le dicton, d’abord : « quand on veut tuer son chien, on dit qu’il a la rage »."
 accroche: "On dit qu'un chien a la rage pour le tuer. Et la crédibilité des journalistes ."
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2023-12-29
 minutes: 3

@@ -2,7 +2,7 @@
 title: "Ukraine : derrière la guerre, les oligarques, avec Sébastien Gobert"
 dek: "Au-delà de l’actualité tourmentée de l’Ukraine, la connaissons-nous vraiment ? Loin des lignes de front, Sébastien Gobert nous plonge, avec « L’Ukraine, la république et les oligarques »  dans un système méconnu où la République danse avec les ombres des oligarques. Fric, pouvoir, vies brisées, accroche-toi, dirait Ellroy"
 accroche: "Le fil conducteur oligarchique de l'histoire de l'Ukraine récenbtree avec Sébastien Gobert. Superbe"
-rubrique: litterature
+rubrique: livres
 type: article
 date: 2025-05-04
 minutes: 3

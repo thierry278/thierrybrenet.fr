@@ -2,7 +2,7 @@
 title: "EHPAD, et pourtant un cadre et des outils existent !"
 dek: "La récente parution du livre « les fossoyeurs » jette une lumière crue sur des pratiques difficiles à accepter. Étant habilité pour mener des évaluations externes en EHPAD, je ne comprends pas comment de telles dérives sont possibles. En effet, un cadre réglementaire et des ‘‘contrôles’’ sont prévus pour éviter cela. Explications..."
 accroche: "Les EHPAD à nouveau sous le feu de l'actualité. Quand un livre nous en montre la \"face noire\""
-rubrique: sante
+rubrique: sciences-sante
 type: article
 date: 2022-01-31
 minutes: 3

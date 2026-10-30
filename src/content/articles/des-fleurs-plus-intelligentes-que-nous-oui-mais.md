@@ -2,7 +2,7 @@
 title: "Des fleurs plus intelligentes que nous ? Oui, mais…"
 dek: "Une évolution importante, chez certaines fleurs, vient d’être documentée. Ainsi, devant la baisse du nombre de pollinisateurs, ces fleurs se sont adaptées pour se reproduire sans leur aide. Cela peut sembler un bon moyen de s’adapter. Malheureusement, sur le long terme, c’est dangereux. Explications."
 accroche: "Face au changement, les fleurs seraient plus intelligentes que nous. Sauf que..."
-rubrique: sciences
+rubrique: sciences-sante
 type: article
 date: 2023-12-15
 minutes: 2

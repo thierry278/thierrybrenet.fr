@@ -2,7 +2,7 @@
 title: "Plongée dans le quotidien d’un hôpital ordinaire (épisode 3)"
 dek: "Vous connaissez maintenant Benjamin Rossi. Aujourd’hui, avec lui, intéressons-nous aux difficultés structurelles de l’hôpital sommé de faire des économies. Pour ce faire, des décisions ineptes sont prises. Ineptes, car elles fragilisent l’hôpital public tout en aggravant les déséquilibres de « la sécu »."
 accroche: "Quand des décisions politiques produit des effets inverses à ceux escomptés"
-rubrique: sante
+rubrique: sciences-sante
 type: article
 date: 2022-02-10
 minutes: 3

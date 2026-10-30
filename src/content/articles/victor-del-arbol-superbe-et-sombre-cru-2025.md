@@ -2,7 +2,7 @@
 title: "Victor del Arbol, superbe et sombre cru 2025"
 dek: "Je n’avais rien lu de Victor del Arbol avant « Personne sur cette terre », mais en fermant ce livre, je sais que je vais réparer cet oubli. Ce roman m’a en effet fait piaffer d’impatience, tant son auteur sait faire monter la tension. C’est riche, dense et la violence y voisine avec la culpabilité."
 accroche: "Vous aimez la littérature \"noire\" ? Faites-vous offrir \"Personne sur cette terre\""
-rubrique: litterature
+rubrique: livres
 type: article
 date: 2025-04-29
 minutes: 2

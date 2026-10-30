@@ -2,7 +2,7 @@
 title: "En économie, comme en randonnée, préférez les boucles"
 dek: "Dans nombre de situations, qu’il s’agisse de randonnée, d’économie ou d’aménagement urbain, il est toujours préférable de penser des choses sous forme de boucle. Cela permet de voir tous les aspects d’un dossier, d’un paysage sans hiérarchiser, a priori."
 accroche: "Notre quotidien nous offre tellement de situations à transposer en entreprise. Exemple..."
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-05-19
 minutes: 2

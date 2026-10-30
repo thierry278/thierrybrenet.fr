@@ -2,7 +2,7 @@
 title: "Pour penser confiance numérique, pensez « PKI »"
 dek: "Au-delà de l’engouement de mobinautes pour certaines applis cryptées, les entreprises ont de réels besoins de sécurisation de leurs échanges. Pour elles, existe un système qui se résume en 3 lettres, PKI. Malheureusement, derrière l’acronyme, les explications manquent. Voici quelques clés de compréhension"
 accroche: "L'économie n'est rien sans confiance. N'hésitez à penser \"confiance numérique et \"PKI\""
-rubrique: economie
+rubrique: entreprises
 type: article
 date: 2021-01-29
 minutes: 2

@@ -2,7 +2,7 @@
 title: "« Magnet Hospital », un exemple urgent à (re)découvrir et s’approprier"
 dek: "Nous cherchons tous — hôpitaux et entreprises — des modèles pour nous aider à satisfaire clients et salariés. Parmi ces modèles, figure celui des « magnet hospitals ». Je vous en propose une présentation synthétique, de manière à comprendre cette réalité et sa transférabilité dans tous les secteurs d’activités..."
 accroche: "Pour que notre économie fonctionne, ses acteurs, tous, doivent être motivés !"
-rubrique: economie
+rubrique: entreprises
 type: article
 date: 2021-04-06
 minutes: 2

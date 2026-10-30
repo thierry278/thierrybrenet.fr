@@ -2,7 +2,7 @@
 title: "La viande, un triple casse-tête, sanitaire, climatique et économique (1/2)"
 dek: "La viande, parce que nous en mangeons beaucoup — et beaucoup plus que nous le pensons — pèse sur l’avenir de notre planète et notre santé. Enfin, par ce que nous consommons de plus en plus de ‘‘mauvaises’’ viandes transformées, nous mettons en danger les filières de qualité. Explications..."
 accroche: "La viande, en plus d'être un marqueur social, est porteuse de trois risques systémiques"
-rubrique: sante
+rubrique: sciences-sante
 type: article
 date: 2023-09-25
 minutes: 2

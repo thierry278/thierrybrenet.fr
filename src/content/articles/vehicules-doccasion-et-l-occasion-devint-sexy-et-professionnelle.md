@@ -2,7 +2,7 @@
 title: "Et l’occasion automobile devint sexy… et professionnelle"
 dek: "Longtemps, la voiture d’occasion fut le passage obligé pour vendre un véhicule neuf. Cette situation a évolué, l’occasion devenant la demande d’un nombre croissant d’acheteurs. Celle-ci se devait donc de devenir génératrice de marge. C’est le cas aujourd’hui, moyennant une professionnalisation du créneau."
 accroche: "Qu'y a-t-il derrière cette voiture d'occasion ? Quelle stratégie ... ?"
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-11-02
 minutes: 2

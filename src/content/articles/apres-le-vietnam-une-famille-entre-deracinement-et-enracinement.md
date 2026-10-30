@@ -2,7 +2,7 @@
 title: "« Entre deux continents», sort de l’anonymat des êtres déracinés entre deux pays."
 dek: "Il est de tradition de louer l’intégration réussie de ceux qui ont choisi de s’installer en France à la fin de la domination coloniale française au Vietnam. Malgré leur déracinement, ils et elles sont parvenus à rester fidèles aux héritages de leur pays natal, tout en construisant une nouvelle vie dans une Francepas toujours très accueillante..."
 accroche: "Diên Biên Phu ... le déracinement pour aller s'enraciner en France avec l'espoir d'une vie meilleure"
-rubrique: litterature
+rubrique: livres
 type: article
 date: 2026-04-24
 minutes: 2

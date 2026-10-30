@@ -2,7 +2,7 @@
 title: "Mixez Qualité et stratégie RH au profit de vos talents"
 dek: "Nous vivons une époque intéressante pour les salariés qui ont envie de progresser. En effet, la combinaison d’une demande forte avec les difficultés de recrutement offre de multiples opportunités. Les talents et autres potentiels créatifs voient donc les opportunités se multiplier au grand dam des employeurs."
 accroche: "Mixer stratégie RH et qualité pour conserver vos talents"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-10-07
 minutes: 2

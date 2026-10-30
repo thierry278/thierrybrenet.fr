@@ -2,7 +2,7 @@
 title: "De mer et de sang : la mer, la famille et la nuit"
 dek: "Avec de mer et de sang, oin de la « mer-décor »,  Jean-Marie Biette ouvre un roman d’aventure où la mer est une épreuve. D’une page à l’autre, vous suivez un grand-père et son petit-fils dans les Caraïbes. Entre ces deux générations il est forcément question de mémoire, mémoire, une mémoire familiale vite parcourue de violence contemporaine. Rapide"
 accroche: "Jean-Marie Biette aime la mer au point d'en faire un personnage de ses romans..."
-rubrique: litterature
+rubrique: livres
 type: article
 date: 2026-06-03
 minutes: 2

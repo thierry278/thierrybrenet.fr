@@ -2,7 +2,7 @@
 title: "Pour un mur solide, attention au ciment"
 dek: "Au sein de processus d’entreprise, j’ai l’habitude de dire que les professionnels connaissent leur métier. Si problèmes il doit y avoir, ils naissent dans les imprécisions nichées au sein des échanges entre processus. D’où l’intérêt de traiter avec soin ces interfaces et de les contractualiser."
 accroche: "Le ciment d'un mur, en qualité c'est l'addition des processus et des contrats d'interface"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-05-28
 minutes: 2

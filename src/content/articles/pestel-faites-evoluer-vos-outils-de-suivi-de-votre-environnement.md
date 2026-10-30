@@ -2,7 +2,7 @@
 title: "Faites évoluer vos outils de suivi de votre environnement"
 dek: "Notre environnement, dans toutes ses composantes, est perpétuellement en mouvement. Aussi, pour ne rien laisser passer d’enjeux importants, nous devons faire évoluer nos outils. C’est vrai pour le QQOQCP et ça l’est aussi avec le PESTEL, son « E » et son « L » évoluant également."
 accroche: "Votre environnement bouge, alors faites évoluer vos outils outils de surveillance"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-05-17
 minutes: 2

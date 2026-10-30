@@ -44,4 +44,4 @@ d'autres outils de communication plus visuels ou plus animés.
 
 Voici une vidéo ⤵️  ... et certaines infographies présentés sur ce site ➡️
 
-https://www.youtube.com/watch?v=4r3kpCr3d6A
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/4r3kpCr3d6A" title="Vidéo YouTube" loading="lazy" allowfullscreen allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe></div>

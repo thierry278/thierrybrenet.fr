@@ -2,7 +2,7 @@
 title: "DRH, initiez des formations à l’art oratoire… pour tous !"
 dek: "Quel dirigeant, quel cadre, n’a pas suivi une formation pour développer son pouvoir de conviction, son leadership à l’oral ? C’est bien, mais comme nombre d’enseignements, celui de l’art oratoire devrait s’adresser à tous, et ce pour éviter une foule de problèmes au sein de l’entreprise."
 accroche: "Sans les mots pour exprimer ce que nous voyons, nos entreprises se privent de réelles opportunités."
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-09-09
 minutes: 2

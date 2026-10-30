@@ -2,7 +2,7 @@
 title: "Plongée dans le quotidien d’un hôpital ordinaire (Épisode 2)"
 dek: "Après avoir précédemment mis en lumière les dynamiques qui affaiblissent l’Hôpital, plongeons maintenant dans ses entrailles avec notre guide, Benjamin Rossi. L’Hôpital étant en quelque sorte la ‘‘maison commune de notre santé’’, il est important d’en mesurer les difficultés."
 accroche: "Quand les difficultés d'avant Covid sont amplifiées par la pandémie : le quotidien d'un hôpital"
-rubrique: sante
+rubrique: sciences-sante
 type: article
 date: 2022-01-25
 minutes: 2

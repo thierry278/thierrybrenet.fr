@@ -2,7 +2,7 @@
 title: "L’intelligence de comprendre les besoins du marché, des clients"
 dek: "Il est des histoires d’entreprises qui semblent tellement belles...  J’aime les comprendre et mettre à jour le mécanisme gagnant, la stratégie et  l’intelligence des situations qui expliquent ces réussites. Aujourd’hui, découvrons Preligens, son flair, son expertise et un univers digne des séries comme « Homeland » et « le bureau des légendes »."
 accroche: "Réponse à des besoins, innovation, IA..., Preligens (ex EarthCube)  coche toutes les cases"
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-07-20
 minutes: 4

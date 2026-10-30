@@ -2,7 +2,7 @@
 title: "Au programme formation 2022, le voile d’ignorance"
 dek: "Si la formation est un levier de progression individuelle, ce peut être également un moyen de fédérer un collectif, de le mettre en mouvement, au sein de l’organisation qui l’emploie. C’est le cas avec le « voile d’ignorance », lequel -bien enseigné- peut créer des consensus et faciliter des évolutions spectaculaires."
 accroche: "Le voile d’ignorance est l’occasion rêvée de lancer des formations pour progresser collectivement."
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-06-11
 minutes: 3

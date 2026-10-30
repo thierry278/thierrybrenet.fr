@@ -2,7 +2,7 @@
 title: "Et la pandémie fit réfléchir les salariés ..."
 dek: "100 000 emplois à pourvoir ! Cela ne peut qu’interroger, puisque ces emplois étaient occupés avant le premier confinement. La pandémie a poussé des salariés à s’interroger sur ce qu’ils attendaient vraiment de leur vie ‘‘pro’’. Beau sujet de réflexion pour DRH quant aux attentes des salariés ?"
 accroche: "Et si les 100 000 emplois vacants dans l’hôtellerie et la restauration aidaient à comprendre la néce"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-06-18
 minutes: 3

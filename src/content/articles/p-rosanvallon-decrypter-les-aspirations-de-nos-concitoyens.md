@@ -2,7 +2,7 @@
 title: "Décrypter les aspirations de nos concitoyens"
 dek: "Nous sommes tous intéressés par l’évolution de notre société. Derrière ce concept, il y a les français, dans toute leur diversité. Pour les comprendre, Pierre Rosanvallon, nous propose une approche complètement renouvelée. Son livre nous aide à décrypter « autrement » nos ‘‘moteurs’’."
 accroche: "Avec P.Rosanvallon, une nouvelle approche de nos aspirations"
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-10-13
 minutes: 4

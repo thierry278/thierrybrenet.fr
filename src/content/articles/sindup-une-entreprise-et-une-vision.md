@@ -2,7 +2,7 @@
 title: "Sindup, une entreprise et une vision"
 dek: "Il y a des entreprises ou, plus largement, des organisations qui marquent un moment de votre vie et qui, de ce fait vous accompagne, pas forcément en termes de flux d’affaires, mais intellectuellement. Leurs valeurs peuvent expliquer cette proximité durable et c’est le cas de Sindup."
 accroche: "L'économie, c'est aussi et surtout des entrteprises agiles, des start-up ... des \"sindUp\""
-rubrique: economie
+rubrique: entreprises
 type: article
 date: 2021-02-25
 minutes: 3

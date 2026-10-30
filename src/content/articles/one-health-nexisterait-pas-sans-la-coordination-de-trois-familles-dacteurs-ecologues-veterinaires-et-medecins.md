@@ -2,7 +2,7 @@
 title: "One Health, quels sont ses 3 acteurs ? (2/3)"
 dek: "Avec Patrick Giraudoux, l’une des grandes voix — pour ne pas dire « la » voix — de One Health en France, nous avons échangé sur cette approche de la santé, l’idée étant de la faire connaître au plus grand nombre. Après l’avoir définie précédemment, nous continuons avec ces principaux acteurs."
 accroche: "One Health, 3 santés et 3 types d'acteurs (écologues, vétérinaires et médecins)"
-rubrique: sante
+rubrique: sciences-sante
 type: article
 date: 2025-02-19
 minutes: 9

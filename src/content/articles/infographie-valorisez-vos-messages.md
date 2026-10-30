@@ -2,7 +2,7 @@
 title: "Valorisez vos messages en les incarnant et en les rendant vi-su-els !"
 dek: "Notre société  nous bombarde d’informations, d’injonctions, de chiffres et de discours ennuyeux. Au milieu de ce fatras, difficile d’attirer l’attention de n’importe quel public et de la conserver plus de quelques minutes. Face à un tel constat, il vous reste une possibilité, celle de rendre vos messages « VI-SU-ELS »."
 accroche: "On dit qu'un dessin vaut parfois plus que cent mots..."
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-10-26
 minutes: 2

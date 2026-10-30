@@ -2,7 +2,7 @@
 title: "Les haies, au centre d’une comm’ anxiogène. Attention au piège"
 dek: "Nous vivons une époque merveilleuse en communication politique. Le plus récent exemple nous a été donné avec la crise agricole, de l’entente cordiale entre forces de l’ordre et manifestants à la méchante Europe, en passant par des haies nécessitant l’application de 14 normes. Les haies ?"
 accroche: "Nos haies de France ont été secouées par une com' politique habile, des slogans et autres punch-line"
-rubrique: economie
+rubrique: entreprises
 type: article
 date: 2024-02-04
 minutes: 3

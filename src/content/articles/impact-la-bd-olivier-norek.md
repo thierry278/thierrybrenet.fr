@@ -2,7 +2,7 @@
 title: "Double Impact, la BD tirée d’un livre d’Olivier Norek"
 dek: "Il y a des écrivains que vous découvrez, aimez et suivez au fil du temps, même lorsqu’ils changent de registre. C’est le cas d’Olivier Norek, que je suis depuis son premier polar. Aujourd’hui, il m’entraine même dans une BD, la BD tirée d’un de ses livres, Impact. Alors, aujourd’hui, parlons de sa BD, même si, derrière, il y a le roman."
 accroche: "Impact, le roman d'Olivier Norek  adapté en BD par Fred Pontarolo"
-rubrique: litterature
+rubrique: livres
 type: article
 date: 2025-03-12
 minutes: 3

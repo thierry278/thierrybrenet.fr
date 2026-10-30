@@ -2,7 +2,7 @@
 title: "Le jardinier plutôt que le leader, ou les leçons d’un général américain"
 dek: "Entre un général américain, responsable des forces spéciales en Irak et Afghanistan entre 2003 et 2008 et notre actualité, on imagine difficilement des points communs. Et pourtant, le général en question a une vision intéressante et transférable dont beaucoup pourraient s’inspirer."
 accroche: "Le jardinier a pour mission de maintenir un écosystème"
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-02-10
 minutes: 2

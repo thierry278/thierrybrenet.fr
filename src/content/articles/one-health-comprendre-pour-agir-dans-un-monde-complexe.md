@@ -2,7 +2,7 @@
 title: "One Health, comprendre pour agir dans un monde complexe (1/3)"
 dek: "De temps à autre, par exemple à l’occasion de l’apparition d’un virus, l’expression « One Health » est prononcée, avant de vite passer à autre chose. Je vous propose d’en faire le tour en deux temps, avec Patrick Giraudoux, référence sur ce sujet. Aujourd’hui, nous définissons One Health et son intérêt."
 accroche: "One health, formalise les passerelles entre les santés animale, humaine et celle des écosystèmes"
-rubrique: sante
+rubrique: sciences-sante
 type: article
 date: 2025-02-06
 minutes: 6

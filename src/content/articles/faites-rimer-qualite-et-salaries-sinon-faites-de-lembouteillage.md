@@ -2,7 +2,7 @@
 title: "Faites rimer Qualité et salariés, sinon, faites de l’embouteillage"
 dek: "Demain, la seule différence entre nos entreprises et d’autres nées ailleurs résidera dans une seule richesse, les salariés ! Ne nous leurrons pas quant à l’innovation comme critère différenciant, ou la relocalisation, mais investissons dans notre principale ressource, l’humain, et sa motivation."
 accroche: "Nos entreprises seront pérennes si nous arrêtons de jouer les costkillers & écoutons nos salariés"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-01-18
 minutes: 2

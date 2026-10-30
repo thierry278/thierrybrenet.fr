@@ -2,7 +2,7 @@
 title: "Entre histoire, économie et patrimoine, la fruitière à comté"
 dek: "J’aime prendre l’exemple du Comté, né du génie des gens de montagne pour rendre intelligible la notion de qualité. Avec ce fromage, les « gens d’en haut » ont réussi à créer un système de production local, maîtrisé, adossé à un territoire et créateur de richesse."
 accroche: "Dans les monts du Jura,  les fruitières à Comté : aventure sociale et entrepreneuriale"
-rubrique: economie
+rubrique: entreprises
 type: article
 date: 2021-02-03
 minutes: 4

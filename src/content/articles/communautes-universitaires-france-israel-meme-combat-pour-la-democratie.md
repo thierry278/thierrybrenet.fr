@@ -2,7 +2,7 @@
 title: "Communautés universitaires, France, Israël : même combat pour la démocratie ?"
 dek: "Comment les universitaires en France et en Israël défendent-ils la démocratie à l’heure où la science est contestée ? Ce texte explore deux approches contrastées et leurs implications."
 accroche: "Comment les scientifiques français & israéliens voient leur rôle dans la défense de la démocratie"
-rubrique: sciences
+rubrique: sciences-sante
 type: article
 date: 2025-07-01
 minutes: 4

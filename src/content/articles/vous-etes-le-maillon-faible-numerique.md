@@ -2,7 +2,7 @@
 title: "Vous êtes le maillon faible ... numérique !"
 dek: "Parce qu’il est tellement facile d’être désinvolte avec les conseils des informaticiens - « il se croit dans un film d’espionnage ?» - un salarié peut vite devenir « le » maillon faible numérique. Pour éviter cela, l’encadrement se doit d’être t pédagogue tant dans le quotidien qu’à propos de la politique de sécurité de l’entreprise."
 accroche: "En matière d’hygiène numérique, on parle peu du rôle des cadres et pourtant ..."
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-04-13
 minutes: 4

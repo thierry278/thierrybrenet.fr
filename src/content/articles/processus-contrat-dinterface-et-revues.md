@@ -2,7 +2,7 @@
 title: "Processus, contrat d’interface et revues ..."
 dek: "Mon dernier livre traite des processus, approche qu’à mon sens toutes les organisations devraient mettre en œuvre. Au-delà des réponses apportées à certains d’entre vous, je vous propose quelques éléments pour aller plus loin."
 accroche: "Découvrez l'utilité à 360° des processus"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-07-27
 minutes: 2

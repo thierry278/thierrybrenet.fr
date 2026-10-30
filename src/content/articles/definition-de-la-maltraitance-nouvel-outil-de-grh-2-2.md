@@ -2,7 +2,7 @@
 title: "Définition de la maltraitance, nouvel outil de GRH (2/2)"
 dek: "La nouvelle définition de la maltraitance (voir ici) se veut universelle, ce qui permet d’envisager son utilisation en GRH ‘‘partout’’ ! Pour ce faire, un lexique associé permet de comprendre précisément chacun de ces termes. Je vous propose de passer en revue les points de vocabulaire les plus importants."
 accroche: "la maltraitance : un lexique pour mieux comprendre chaque mot de cette définition"
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-09-22
 minutes: 2

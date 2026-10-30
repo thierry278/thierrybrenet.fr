@@ -30,9 +30,32 @@ def slugify(texte):
     return re.sub(r'[\s_-]+', '-', t)
 
 
+# Rubriques du nouveau site (décision du 30/10/2026) : catégorie WordPress -> rubrique.
+RUBRIQUES = {
+    'rencontres': 'rencontres',
+    'geopolitique': 'geopolitique',
+    'cyber': 'cyber',
+    'strategie': 'entreprises', 'qualite': 'entreprises', 'economie': 'entreprises',
+    'sciences': 'sciences-sante', 'sante': 'sciences-sante',
+    'litterature': 'livres',
+    'le-temps-dun-cafe': 'le-temps-dun-cafe',
+}
+
+YT = r'(?:https?:)?//(?:www\.)?(?:youtube\.com/(?:embed/|watch\?v=)|youtu\.be/)([\w-]{11})[^\s"<]*'
+
+
+def video(id_):
+    return (f'<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/{id_}" '
+            'title="Vidéo YouTube" loading="lazy" allowfullscreen '
+            'allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe></div>')
+
+
 def nettoyer(h):
     if not h:
         return ''
+    # Vidéos YouTube : iframes et liens seuls sur leur ligne (intégrés automatiquement par WordPress).
+    h = re.sub(r'<iframe[^>]*src="' + YT + r'"[^>]*>\s*</iframe>', lambda m: f'\n\nYTVIDEO{m.group(1).encode().hex()}FIN\n\n', h)
+    h = re.sub(r'(?m)^\s*' + YT + r'\s*$', lambda m: f'\n\nYTVIDEO{m.group(1).encode().hex()}FIN\n\n', h)
     h = re.sub(r'<!--.*?-->', '', h, flags=re.S)
     h = re.sub(r'\[/?[a-z_]+[^\]]*\]', '', h)          # shortcodes
     h = re.sub(r'href="applewebdata://[^"]*"', '', h)   # liens cassés (copier-coller Mac)
@@ -44,6 +67,7 @@ def nettoyer(h):
     md = markdownify(h, heading_style='ATX', bullets='-')
     md = html.unescape(md).replace('\xa0', ' ')
     md = re.sub(r'[ \t]+\n', '\n', md)
+    md = re.sub(r'YTVIDEO([0-9a-f]+)FIN', lambda m: video(bytes.fromhex(m.group(1)).decode()), md)
     return re.sub(r'\n{3,}', '\n\n', md).strip()
 
 
@@ -102,7 +126,7 @@ def main(chemin):
                 'title': yaml(titre),
                 'dek': yaml(html.unescape(meta.get('descriptif', '')) or titre),
                 'accroche': yaml(html.unescape(meta.get('accroche', ''))),
-                'rubrique': slugify(cats[0]) if cats else 'divers',
+                'rubrique': RUBRIQUES.get(slugify(cats[0]), 'divers') if cats else 'divers',
                 'type': 'article',
                 'date': date,
                 'minutes': max(1, round(mots / 230)),

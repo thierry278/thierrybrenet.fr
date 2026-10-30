@@ -2,7 +2,7 @@
 title: "Arrêtez de me pister et de jouer sur ma lassitude !"
 dek: "Depuis mai 2018, le RGPD interdit l’utilisation — à notre insu — de nos données personnelles. Ce n’est pas une lubie bruxelloise, mais une réponse aux attentes des citoyens. Hélas, nombre d’entreprises ‘‘jouent’’ à contourner ce règlement. C’est irrespectueux, illégal, donc punissable !"
 accroche: "La qualité repose sur une sorte de contrat de confiance, y compris pour ses données personnelles !"
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2021-09-02
 minutes: 2

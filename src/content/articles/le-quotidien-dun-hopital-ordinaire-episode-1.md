@@ -2,7 +2,7 @@
 title: "Plongée dans le quotidien d’un hôpital ordinaire (Épisode 1)"
 dek: "Pour nous aider à comprendre comment va l’Hôpital public et parce que nous sommes tous concernés, Benjamin Rossi, « interniste » à l’hôpital, a accepté de répondre à mes questions. Dans ce premier article, avec lui, examinons l’état du malade « Hôpital ». Ensuite, nous plongerons dans son quotidien."
 accroche: "Comprendre comment va l'Hôpital public, de l'intérieur ..."
-rubrique: sante
+rubrique: sciences-sante
 type: article
 date: 2022-01-18
 minutes: 2

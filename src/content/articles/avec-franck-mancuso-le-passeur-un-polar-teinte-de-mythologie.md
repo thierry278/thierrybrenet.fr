@@ -2,7 +2,7 @@
 title: "Avec Franck Mancuso, « Le Passeur », un polar teinté de mythologie"
 dek: "Franck Mancuso est un ancien policier devenu scénariste et réalisateur. Aussi, quand il passe au roman policier, le résultat ne peut qu’être visuel et ancré dans un certain réalisme, y compris social. Je vous confirme que le résultat n’a rien de décevant, tout en remettant en cause certaines dimensions rationnelles."
 accroche: "Franck Mancuso est un auteur et scénariste français passé à l'écriture pour notre plus grand plaisir"
-rubrique: litterature
+rubrique: livres
 type: article
 date: 2025-04-19
 minutes: 2

@@ -2,7 +2,7 @@
 title: "Traquer les tendances qui montent"
 dek: "Les événements de la vie participent à l’évolution de nos goûts et comportements. Lorsque, par notre activité nous participons à la fabrication et à la commercialisation de produits et services destinés à l’utilisateur final, il est vital de savoir ‘‘renifler’’ l’air du temps à l’écoute de tendances et autres « bas bruits ». En effet, elles et ils"
 accroche: "traquer les tendances n'est pas une perte de temps. Au contraire ..."
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-03-01
 minutes: 3

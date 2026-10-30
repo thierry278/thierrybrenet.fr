@@ -2,7 +2,7 @@
 title: "Comment faire évoluer simplement sa communication d'entreprise ?"
 dek: "Que nous soyons en présentiel ou en distanciel, nous utilisons beaucoup des présentations qui n’étonnent plus. Le sentiment de déjà vu, qui en nait, n’améliore pas l’attention de nos publics et, partant, une bonne transmission de nos messages. Et si vous testiez ThingLink ou Mmhmm ?"
 accroche: "Zoom, ou Starleaf ne suffisent pas à faire évoluer votre communication d'entreprise. Par contre..."
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2022-10-22
 minutes: 3

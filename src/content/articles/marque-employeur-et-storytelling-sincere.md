@@ -2,7 +2,7 @@
 title: "Marque employeur et Storytelling (sincère)"
 dek: "Talents et profils pénuriques, sont difficiles à attirer. C’est d’autant plus vrai si votre entreprise souffre d’un déficit d’image. Dès lors, pourquoi ne pas développer une stratégie ‘‘marque employeur’’ sur laquelle communiquer en vous inspirant des principes du Storytelling ?"
 accroche: "un storytelling sincère pour votre marque employeur"
-rubrique: economie
+rubrique: entreprises
 type: article
 date: 2021-01-17
 minutes: 2

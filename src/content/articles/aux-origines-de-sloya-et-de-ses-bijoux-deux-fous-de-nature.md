@@ -2,7 +2,7 @@
 title: "Aux origines de Sloya et de ses bijoux, deux fous de nature (#2)"
 dek: "Dans un récent article je vous présentais l'entreprise SLOYA, créatrice de bijoux. Si j’ai eu envie de vous faire rencontrer ses créateurs  — Jordan et Loïc — c’est parce que leur projet plonge ses racines dans « La Nature ». Une nature que, dès l’enfance, ils ont exploré, cherché des fossiles et tout ce qu’elle pouvait leur offrir."
 accroche: "Après l'entreprise, les deux créateurs (de bijoux) de Sloya"
-rubrique: economie
+rubrique: entreprises
 type: article
 date: 2024-09-02
 minutes: 3

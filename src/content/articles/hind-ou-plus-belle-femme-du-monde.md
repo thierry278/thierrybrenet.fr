@@ -2,7 +2,7 @@
 title: "Hind, ou la plus belle femme du monde, le livre des absents, tous…"
 dek: "Hind : Une fois ce livre fermé, vous le conseiller pour vous le conseiller m'a semblé évident. C’est pourtant ce que je vais tenter avec celui de Hoda Barakat. Refermé depuis peu, ses personnages abimés, comme leur pays, me guident encore : leurs vies portent, avec des mots simples, ce que j’appellerai les fautes du Liban."
 accroche: "Hind ou la plus belle femme du monde, le livre des absents, tous…"
-rubrique: litterature
+rubrique: livres
 type: article
 date: 2026-09-08
 minutes: 2

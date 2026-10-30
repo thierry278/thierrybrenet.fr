@@ -2,7 +2,7 @@
 title: "Fédérer, chasser les problèmes, les résoudre ? La réponse est là :  ⤵️."
 dek: "L’intérêt des communautés virtuelles que l’on se choisit est de pouvoir « penser contre soi » et donc de se remettre en cause. Ce matin, c’est contre un outil fabuleux — le management par les processus — que j’ai lu un babillage qui proposait de lui substituer un « accompagnement managérial » !"
 accroche: "Pour moi, le management par les processus est le couteau suisse de l'entreprise."
-rubrique: qualite
+rubrique: entreprises
 type: article
 date: 2023-12-03
 minutes: 2

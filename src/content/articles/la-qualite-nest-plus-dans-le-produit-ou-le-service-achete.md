@@ -2,7 +2,7 @@
 title: "La qualité n’est plus dans le produit, ou le service acheté !"
 dek: "L’entreprise est un lieu où le mot « qualité » est un horizon vers lequel tous sont tournés. Les savoir-faire sont là, ils se transmettent entre collègues comme aux nouveaux embauchés. Le problème est que le client -aujourd’hui- attend, souhaite, veut, plus que le produit. Et là..."
 accroche: "L'hyperchoix nous conduit à différencier les produits à leur périphérie"
-rubrique: strategie
+rubrique: entreprises
 type: article
 date: 2021-10-01
 minutes: 2
