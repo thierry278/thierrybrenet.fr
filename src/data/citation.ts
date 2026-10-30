@@ -1,4 +1,4 @@
-e// Citation affichée en pied de page.
+// Citation affichée en pied de page.
 // Pour la changer : remplir « texte » entre les guillemets, sans toucher au reste.
 // Si « texte » est vide, le pied de page affiche la devise du site.
 export const citation = {
