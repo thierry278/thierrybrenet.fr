@@ -25,7 +25,7 @@ const couv = url(`images/livres/${d.image}`).replace(/\/$/, '');
         <h1>{d.title}</h1>
         {d.accroche && <p class="dek">{d.accroche}</p>}
         <div class="byline">AFNOR Éditions · {d.annee}{d.coauteur ? ` · avec ${d.coauteur}` : ''}</div>
-        {d.lien && <a class="read" href={d.lien} target="_blank" rel="noopener">Commander le livre →</a>}
+        {d.lien && <a class="read" href={d.lien} target="_blank" rel="noopener">Où commander ce livre →</a>}
       </div>
     </div>
     <div class="corps"><Content /></div>
