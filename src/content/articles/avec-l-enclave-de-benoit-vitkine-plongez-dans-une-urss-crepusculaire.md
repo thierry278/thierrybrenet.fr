@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2024/10/l-enclave-benoit-vitkine-corpstexte.jpg"
+vignette: "vignettes/avec-l-enclave-de-benoit-vitkine-plongez-dans-un.jpg"
 image_pano: "2024/10/l-enclave-benoitvitkine-pano.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/avec-l-enclave-de-benoit-vitkine-plongez-dans-une-urss-crepusculaire/"
 hashtags: ["Comprendre"]

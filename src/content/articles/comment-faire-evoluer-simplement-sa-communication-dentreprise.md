@@ -9,6 +9,7 @@ minutes: 3
 une: false
 brouillon: false
 image: "2022/10/une_autre_comm2-1.png"
+vignette: "vignettes/comment-faire-evoluer-simplement-sa-communicatio.jpg"
 image_pano: "2022/10/oui_jai_decide_de_donner_une_autre_dimension_a_ma_communication-3.png"
 ancienne_url: "https://www.thierrybrenet.fr/article/comment-faire-evoluer-simplement-sa-communication-dentreprise/"
 hashtags: ["formation", "Organisation"]

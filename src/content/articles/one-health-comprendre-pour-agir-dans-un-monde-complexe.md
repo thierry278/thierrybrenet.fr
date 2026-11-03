@@ -9,6 +9,7 @@ minutes: 6
 une: false
 brouillon: false
 image: "2025/02/0b-nonpano-one-health.jpg"
+vignette: "vignettes/one-health-comprendre-pour-agir-dans-un-monde-co.jpg"
 image_pano: "2025/02/0-pano-one-health.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/one-health-comprendre-pour-agir-dans-un-monde-complexe/"
 hashtags: ["Comprendre", "Santé", "sciences"]

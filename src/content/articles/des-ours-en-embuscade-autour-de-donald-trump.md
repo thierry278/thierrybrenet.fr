@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2024/10/photo-tete-regis_gente.jpg"
+vignette: "vignettes/des-ours-en-embuscade-autour-de-donald-trump.jpg"
 image_pano: "2024/10/pano-regis-gente.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/des-ours-en-embuscade-autour-de-donald-trump/"
 hashtags: ["Comprendre"]

@@ -9,6 +9,7 @@ minutes: 3
 une: false
 brouillon: false
 image: "2021/09/cyber-2.png"
+vignette: "vignettes/cyber-quand-les-rh-expliquent-pourquoi-il-est-si.jpg"
 image_pano: ""
 ancienne_url: "https://www.thierrybrenet.fr/article/cyber-quand-les-rh-expliquent-pourquoi-il-est-simple-detre-phishe/"
 hashtags: ["formation", "RH"]

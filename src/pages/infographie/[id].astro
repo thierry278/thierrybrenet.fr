@@ -10,9 +10,10 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const d = article.data;
 const visuel = image(d.image);
+const apercu = image(d.vignette) ?? visuel; // aperçu LinkedIn : vignette 1,91:1 quand elle existe
 const pdf = image(d.pdf);
 ---
-<Base title={d.title} description={d.dek} image={visuel}>
+<Base title={d.title} description={d.dek} image={apercu}>
   <article class="article">
     <a class="eyebrow" href={lienRubrique('coup-doeil')} style="text-decoration:none">En un coup d'œil</a>
     <h1>{d.title}</h1>

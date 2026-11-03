@@ -9,6 +9,7 @@ minutes: 3
 une: false
 brouillon: false
 image: "2022/01/ehpad2.png"
+vignette: "vignettes/ehpad-et-pourtant-un-cadre-et-des-outils-existen.jpg"
 image_pano: "2022/01/ehp.png"
 ancienne_url: "https://www.thierrybrenet.fr/article/ehpad-et-pourtant-un-cadre-et-des-outils-existent/"
 hashtags: ["Comprendre", "social &amp; médicosocial"]

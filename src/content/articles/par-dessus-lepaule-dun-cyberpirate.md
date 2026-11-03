@@ -9,6 +9,7 @@ minutes: 4
 une: false
 brouillon: false
 image: "2021/05/1619617961263.png"
+vignette: "vignettes/par-dessus-lepaule-dun-cyberpirate.jpg"
 image_pano: ""
 ancienne_url: "https://www.thierrybrenet.fr/article/par-dessus-lepaule-dun-cyberpirate/"
 hashtags: ["Comprendre", "Sécurité"]

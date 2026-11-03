@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2024/10/photo-tete-regis_gente.jpg"
+vignette: "vignettes/pour-regis-gente-apres-avoir-etudie-40-ans-de-vi.jpg"
 image_pano: "2024/10/pano-regis-gente.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/pour-regis-gente-apres-avoir-etudie-40-ans-de-vie-de-trump-rien-detonnant-dans-sa-brutalite/"
 hashtags: ["géopolitique"]

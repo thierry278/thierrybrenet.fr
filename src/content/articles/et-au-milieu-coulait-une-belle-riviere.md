@@ -9,6 +9,7 @@ minutes: 4
 une: false
 brouillon: false
 image: "2023/10/photo2.jpg"
+vignette: "vignettes/et-au-milieu-coulait-une-belle-riviere.jpg"
 image_pano: "2023/10/photo-pano.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/et-au-milieu-coulait-une-belle-riviere/"
 hashtags: ["Comprendre", "Environnement"]

@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2022/06/erreur4043.png"
+vignette: "vignettes/stress-et-effet-tunnel-allies-objectifs-des-hack.jpg"
 image_pano: "2022/06/erreur404.png"
 ancienne_url: "https://www.thierrybrenet.fr/article/stress-et-effet-tunnel-allies-objectifs-des-hackers/"
 hashtags: ["Comprendre", "Sécurité"]

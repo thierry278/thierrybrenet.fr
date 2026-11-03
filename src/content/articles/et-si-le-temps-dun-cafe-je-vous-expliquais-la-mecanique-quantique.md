@@ -9,6 +9,7 @@ minutes: 4
 une: false
 brouillon: false
 image: "2022/02/atomeimagedetete2.png"
+vignette: "vignettes/et-si-le-temps-dun-cafe-je-vous-expliquais-la-me.jpg"
 image_pano: "2022/02/atomeimagedetete-one.png"
 ancienne_url: "https://www.thierrybrenet.fr/article/et-si-le-temps-dun-cafe-je-vous-expliquais-la-mecanique-quantique/"
 hashtags: ["Comprendre", "sciences"]

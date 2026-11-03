@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2025/04/0-victor-del-albol-tete-txt-formatnormal.jpg"
+vignette: "vignettes/victor-del-arbol-superbe-et-sombre-cru-2025.jpg"
 image_pano: "2025/04/0-victor-del-albol-tete-txt-pano.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/victor-del-arbol-superbe-et-sombre-cru-2025/"
 hashtags: ["Polar", "Roman"]

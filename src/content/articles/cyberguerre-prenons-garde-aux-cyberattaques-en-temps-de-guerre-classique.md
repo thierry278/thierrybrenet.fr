@@ -9,6 +9,7 @@ minutes: 3
 une: false
 brouillon: false
 image: "2022/03/guerretetearticle-e1648414372393.png"
+vignette: "vignettes/cyberguerre-prenons-garde-aux-cyberattaques-en-t.jpg"
 image_pano: "2022/03/guerre.pano_.png"
 ancienne_url: "https://www.thierrybrenet.fr/article/cyberguerre-prenons-garde-aux-cyberattaques-en-temps-de-guerre-classique/"
 hashtags: ["Comprendre", "géopolitique", "Sécurité"]

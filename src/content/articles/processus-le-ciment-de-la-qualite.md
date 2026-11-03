@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2021/05/tousconcernes9.png"
+vignette: "vignettes/processus-le-ciment-de-la-qualite.jpg"
 image_pano: ""
 ancienne_url: "https://www.thierrybrenet.fr/article/processus-le-ciment-de-la-qualite/"
 hashtags: ["Comprendre", "Organisation"]

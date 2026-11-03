@@ -9,6 +9,7 @@ minutes: 7
 une: false
 brouillon: false
 image: "2025/06/000-pano-1b.jpg"
+vignette: "vignettes/jean-marie-biette-nous-parle-de-ses-livres.jpg"
 image_pano: "2025/06/000-pano-1.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/jean-marie-biette-nous-parle-de-ses-livres/"
 hashtags: ["Polar", "Société"]

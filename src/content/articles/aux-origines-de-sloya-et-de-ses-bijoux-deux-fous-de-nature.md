@@ -9,6 +9,7 @@ minutes: 3
 une: false
 brouillon: false
 image: "2024/08/sloya2-text.jpg"
+vignette: "vignettes/aux-origines-de-sloya-et-de-ses-bijoux-deux-fous.jpg"
 image_pano: "2024/08/sloya2-pano.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/aux-origines-de-sloya-et-de-ses-bijoux-deux-fous-de-nature/"
 hashtags: ["Comprendre", "entreprises", "Environnement"]

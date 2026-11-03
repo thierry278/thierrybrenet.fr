@@ -8,7 +8,7 @@ date: 2021-07-21
 une: false
 brouillon: false
 image: "2021/08/rgpd__des_drois_qui_creent.png"
-vignette: ""
+vignette: "vignettes/rgpd-des-protections-qui-creent-des-obligations.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/rgpd-des-protections-qui-creent-des-obligations/"
 ---

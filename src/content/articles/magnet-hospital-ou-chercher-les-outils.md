@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2021/03/sans_titre-1.jpg"
+vignette: "vignettes/magnet-hospital-ou-chercher-les-outils.jpg"
 image_pano: ""
 ancienne_url: "https://www.thierrybrenet.fr/article/magnet-hospital-ou-chercher-les-outils/"
 hashtags: ["Organisation", "RH"]

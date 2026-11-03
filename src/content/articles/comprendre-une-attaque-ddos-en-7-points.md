@@ -8,7 +8,7 @@ date: 2021-08-16
 une: false
 brouillon: false
 image: "2021/08/infographie_cyber_comprendre_une_ddos.png"
-vignette: ""
+vignette: "vignettes/comprendre-une-attaque-ddos-en-7-points.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/comprendre-une-attaque-ddos-en-7-points/"
 ---

@@ -9,6 +9,7 @@ minutes: 5
 une: false
 brouillon: false
 image: "2022/07/photohtdepage.png"
+vignette: "vignettes/armes-daujourdhui-ep1-les-munitions-guidees.jpg"
 image_pano: "2022/07/munitionsguidees-pano-2.png"
 ancienne_url: "https://www.thierrybrenet.fr/article/armes-daujourdhui-ep1-les-munitions-guidees/"
 hashtags: ["Comprendre", "Sécurité"]

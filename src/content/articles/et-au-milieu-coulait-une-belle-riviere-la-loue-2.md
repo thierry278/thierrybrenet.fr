@@ -9,6 +9,7 @@ minutes: 4
 une: false
 brouillon: false
 image: "2023/10/norma2.jpg"
+vignette: "vignettes/et-au-milieu-coulait-une-belle-riviere-la-loue-2.jpg"
 image_pano: "2023/10/pano2.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/et-au-milieu-coulait-une-belle-riviere-la-loue-2/"
 hashtags: ["Comprendre", "Environnement"]

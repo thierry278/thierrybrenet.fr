@@ -13,9 +13,10 @@ const { article } = Astro.props;
 const d = article.data;
 const r = rubrique(d.rubrique);
 const visuel = image(d.image);
+const apercu = image(d.vignette) ?? visuel; // aperçu LinkedIn : vignette 1,91:1 quand elle existe
 const { Content } = await render(article);
 ---
-<Base title={d.title} description={d.dek} image={visuel} date={d.date}>
+<Base title={d.title} description={d.dek} image={apercu} date={d.date}>
   <article class="article">
     <a class="eyebrow" href={lienRubrique(d.rubrique)} style="text-decoration:none">{r?.label}</a>
     <h1>{d.title}</h1>

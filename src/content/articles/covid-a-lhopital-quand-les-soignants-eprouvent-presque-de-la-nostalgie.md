@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2021/11/shutterstock1761841661b.png"
+vignette: "vignettes/covid-a-lhopital-quand-les-soignants-eprouvent-p.jpg"
 image_pano: ""
 ancienne_url: "https://www.thierrybrenet.fr/article/covid-a-lhopital-quand-les-soignants-eprouvent-presque-de-la-nostalgie/"
 hashtags: ["Comprendre", "Organisation", "RH"]

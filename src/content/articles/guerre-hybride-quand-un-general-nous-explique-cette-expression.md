@@ -9,6 +9,7 @@ minutes: 5
 une: false
 brouillon: false
 image: "2024/09/guerrehybridehautnonpano.jpg"
+vignette: "vignettes/guerre-hybride-quand-un-general-nous-explique-ce.jpg"
 image_pano: "2024/09/panoguerrehybride.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/guerre-hybride-quand-un-general-nous-explique-cette-expression/"
 hashtags: ["Comprendre", "Sécurité"]

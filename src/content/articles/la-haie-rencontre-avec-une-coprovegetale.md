@@ -9,6 +9,7 @@ minutes: 2
 une: false
 brouillon: false
 image: "2023/10/haiepano2.jpg"
+vignette: "vignettes/la-haie-rencontre-avec-une-coprovegetale.jpg"
 image_pano: "2023/10/haiepano1.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/la-haie-rencontre-avec-une-coprovegetale/"
 hashtags: ["Comprendre", "sciences"]

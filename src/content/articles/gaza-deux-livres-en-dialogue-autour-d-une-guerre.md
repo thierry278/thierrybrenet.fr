@@ -9,6 +9,7 @@ minutes: 5
 une: false
 brouillon: false
 image: "2025/05/1-gaza-couv-carre.jpg"
+vignette: "vignettes/gaza-deux-livres-en-dialogue-autour-d-une-guerre.jpg"
 image_pano: "2025/05/0-gaza-couv-pano.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/gaza-deux-livres-en-dialogue-autour-d-une-guerre/"
 hashtags: ["Monde"]

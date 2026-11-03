@@ -9,6 +9,7 @@ minutes: 5
 une: false
 brouillon: false
 image: "2025/03/1-itw-romain-mielcarek-2.jpg"
+vignette: "vignettes/romain-mielcarek-le-temps-dun-cafe.jpg"
 image_pano: "2025/03/0-itw-romain-mielcarek.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/romain-mielcarek-le-temps-dun-cafe/"
 hashtags: ["Comprendre", "géopolitique"]

@@ -9,6 +9,7 @@ minutes: 4
 une: false
 brouillon: false
 image: "2021/03/1d-1.jpg"
+vignette: "vignettes/vous-etes-le-maillon-faible-numerique.jpg"
 image_pano: ""
 ancienne_url: "https://www.thierrybrenet.fr/article/vous-etes-le-maillon-faible-numerique/"
 hashtags: ["Sécurité"]

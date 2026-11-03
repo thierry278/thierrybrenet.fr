@@ -8,7 +8,7 @@ date: 2022-03-06
 une: false
 brouillon: false
 image: "2022/03/sans_titre_40003000px-3-2.png"
-vignette: ""
+vignette: "vignettes/comprendre-les-paiements-swift.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/comprendre-les-paiements-swift/"
 ---
