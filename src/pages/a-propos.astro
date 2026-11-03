@@ -1,10 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import { url } from '../data/url';
-import { getCollection } from 'astro:content';
+import MesLivres from '../components/MesLivres.astro';
 
-const livres = (await getCollection('livres')).sort((x, y) => x.data.ordre - y.data.ordre);
-const img = (f: string) => url(`images/livres/${f}`).replace(/\/$/, '');
 ---
 <Base title="À propos" description="Thierry Brenet, journaliste indépendant et auteur : cinq livres, plus de cent articles et des infographies.">
   <article class="article">
@@ -20,16 +18,5 @@ const img = (f: string) => url(`images/livres/${f}`).replace(/\/$/, '');
     </div>
   </article>
 
-  <section class="fil" aria-label="Livres">
-    <div class="fil-head"><span class="eyebrow">Les livres</span><span class="all">AFNOR Éditions</span></div>
-    <div class="livres">
-      {livres.map((l) => (
-        <a class="livre" href={url(`livre/${l.id}/`)}>
-          <div class="couv"><img src={img(l.data.image)} alt={`Couverture : ${l.data.title}`} loading="lazy" /></div>
-          <h2>{l.data.title}</h2>
-          <span class="foot">{l.data.annee}{l.data.coauteur ? `, avec ${l.data.coauteur}` : ''}</span>
-        </a>
-      ))}
-    </div>
-  </section>
+  <MesLivres titre="Les livres" />
 </Base>

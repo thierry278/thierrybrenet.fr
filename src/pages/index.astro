@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Carte from '../components/Carte.astro';
+import MesLivres from '../components/MesLivres.astro';
 import { regrouper, series } from '../data/series';
 import { articlesPublies } from '../data/articles';
 import { rubrique } from '../data/rubriques';
@@ -34,6 +35,8 @@ const titre = (a: any) => (a.data.serie ? series[a.data.serie]?.titre : undefine
       )}
     </section>
   )}
+
+  <MesLivres />
 
   {fil.length > 0 && (
     <section class="fil" aria-label="Derniers articles">

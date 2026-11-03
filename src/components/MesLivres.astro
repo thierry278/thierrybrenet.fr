@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import { url } from '../data/url';
+const { titre = 'Mes livres' } = Astro.props;
+const livres = (await getCollection('livres')).sort((x, y) => y.data.ordre - x.data.ordre); // le plus récent d'abord
+const img = (f: string) => url(`images/livres/${f}`).replace(/\/$/, '');
+---
+<section class="fil" id="livres" aria-label={titre}>
+  <div class="fil-head"><span class="eyebrow">{titre}</span><span class="all">Cinq livres, dont un écrit à deux</span></div>
+  <div class="livres">
+    {livres.map((l) => (
+      <a class="livre" href={url(`livre/${l.id}/`)}>
+        <div class="couv"><img src={img(l.data.image)} alt={`Couverture : ${l.data.title}`} loading="lazy" /></div>
+        <h2>{l.data.title}</h2>
+        <span class="foot">{l.data.annee}{l.data.coauteur ? `, avec ${l.data.coauteur}` : ''}</span>
+      </a>
+    ))}
+  </div>
+</section>

@@ -144,7 +144,8 @@
   .livre .foot{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#8a877f}
   a.livre:hover .couv{border-color:var(--accent)}
   a.livre:hover h2{color:var(--accent)}
-  nav .apropos{margin-left:auto}
+  nav .mes-livres{margin-left:auto}
+  nav .apropos{margin-left:0}
   .contact-ligne{font-family:"Bodoni Moda Variable",serif;font-variation-settings:"opsz" 11;font-size:28px}
   .a-completer{background:#fff3c4;padding:0 4px}
   footer .liens{display:flex;gap:18px;font-size:12px;letter-spacing:.04em}
