@@ -144,6 +144,18 @@
   .livre .foot{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#8a877f}
   a.livre:hover .couv{border-color:var(--accent)}
   a.livre:hover h2{color:var(--accent)}
+  /* ---------- bandeau « Mes livres » : pleine largeur, gris foncé ---------- */
+  body{overflow-x:clip}
+  .bandeau-livres{width:100vw;margin:44px calc(50% - 50vw);background:#2d2c2a;color:#f2efe8;padding:34px 0 40px}
+  .bandeau-in{max-width:1160px;margin:0 auto;padding:0 26px}
+  .bandeau-livres .fil-head{border-bottom-color:#f2efe8}
+  .bandeau-livres .eyebrow{color:#f0a48f}
+  .bandeau-livres .all{color:#cfcbc2}
+  .bandeau-livres .livre{color:#f2efe8}
+  .bandeau-livres .livre .couv{border-color:transparent}
+  .bandeau-livres .livre .foot{color:#b9b5ab}
+  .bandeau-livres a.livre:hover .couv{border-color:#f0a48f}
+  .bandeau-livres a.livre:hover h2{color:#f0a48f}
   nav .mes-livres{margin-left:auto}
   nav .apropos{margin-left:0}
   .contact-ligne{font-family:"Bodoni Moda Variable",serif;font-variation-settings:"opsz" 11;font-size:28px}
