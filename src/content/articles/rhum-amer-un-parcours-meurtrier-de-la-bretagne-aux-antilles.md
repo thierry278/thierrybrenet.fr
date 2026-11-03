@@ -2,7 +2,7 @@
 title: "Parcours meurtrier de la Bretagne aux Antilles, avec un peu de rhum"
 dek: "Le printemps est là et l’été se profile. Pour prendre un peu d’avance sur les vacances, Jean-Marie Biette vous embarque pour une grande course  allant de la Bretagne à la Guadeloupe et quelques iles au nom de rêve. En chemin, quelques cadavres et des bordées en mer  pour pimenter une route du Rhum pas très ordinaire."
 accroche: "Rhum amer, un roman qui mêle aventures en mer et meurtre à terre"
-rubrique: rencontres
+rubrique: livres
 type: article
 date: 2025-04-16
 minutes: 2

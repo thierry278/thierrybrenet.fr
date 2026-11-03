@@ -1,8 +1,8 @@
 ---
-title: "LE MOZART DU COMPTOIR (Par Dominique Potard)"
+title: "Le Mozart du comptoir (par Dominique Potard)"
 dek: "Récemment, je publiais la transcription d’un échange avec Dominique Potard. Aujourd’hui, voici un de ces textes qu’il poste régulièrement (Fb). Il nous permet de plonger aux sources de son célèbre « Port de la Mer de Glace » et de ses suites. Je le publie, évidemment, avec son autorisation. Il en est de même pour la photographie (de Sylvie)."
 accroche: "Quand les amis de Dominique Potard s'accoudent au Port de la mer de Glace..."
-rubrique: rencontres
+rubrique: livres
 type: article
 date: 2023-12-05
 minutes: 3

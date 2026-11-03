@@ -2,7 +2,7 @@
 title: "Wayward Pines : plongée dans la ville où chaque vérité est un piège"
 dek: "Ethan Burke se réveille blessé, seul, dans une ville qui refuse de le laisser partir. Wayward Pines, petite bourgade d’apparence paisible, cache un secret oppressant. Chaque pas vers la vérité l’enfonce dans un labyrinthe où la réalité vacille et le danger rôde."
 accroche: "En fait, qui est fou, les habitants de Wayward Pines, Ethan, vous, moi... ?"
-rubrique: rencontres
+rubrique: livres
 type: article
 date: 2025-07-23
 minutes: 2

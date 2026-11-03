@@ -3,7 +3,7 @@
 export const rubriques = [
   { slug: 'rencontres', label: 'Rencontres', singulier: 'Rencontre', nav: true },
   { slug: 'geopolitique', label: 'Géopolitique', singulier: 'Géopolitique', nav: true },
-  { slug: 'cyber', label: 'Cyber', singulier: 'Cyber', nav: true },
+  { slug: 'cyber', label: 'Cyber & Num', singulier: 'Cyber & Num', nav: true },
   { slug: 'entreprises', label: 'Entreprises', singulier: 'Entreprises', nav: true },
   { slug: 'sciences-sante', label: 'Sciences et santé', singulier: 'Sciences et santé', nav: true },
   { slug: 'livres', label: 'Livres', singulier: 'Livres', nav: true },

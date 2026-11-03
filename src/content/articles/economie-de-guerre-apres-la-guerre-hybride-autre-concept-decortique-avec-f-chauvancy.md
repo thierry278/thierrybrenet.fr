@@ -2,7 +2,7 @@
 title: "Après la guerre hybride, l’économie de guerre vue par F. Chauvancy"
 dek: "François Chauvancy n’est pas chirurgien, mais il sait disséquer un sujet pour mettre en lumière, les rouages, les relations entre organes et — évidemment — pointer ce qui ne fonctionne pas vraiment. Je lui pose l’économie de guerre sur la table de dissection. Il se met au travail, scalpel en main. Ensuite, c’est à notre armée qu’il s’attaquera."
 accroche: "Notre président parle d'économie de guerre. F. Chauvancy décrypte cette expression"
-rubrique: rencontres
+rubrique: cyber
 type: article
 date: 2024-10-08
 minutes: 8

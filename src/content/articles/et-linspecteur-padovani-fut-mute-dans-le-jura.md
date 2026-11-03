@@ -2,7 +2,7 @@
 title: "Et l'inspecteur Padovani fut muté dans le Jura"
 dek: "J’aime les mots, ceux que je mets en forme pour faire passer des messages et ceux des autres évidemment. Il en résulte une petite montagne d’articles, 5 — bientôt 6 — livres, une bibliothèque qui déborde au grand dam de mon épouse, et des aventures comme un atelier d’écriture jurassien."
 accroche: "Un atelier d'écriture : une belle alchimie, une grande confiance et des mots, des mots..."
-rubrique: rencontres
+rubrique: livres
 type: article
 date: 2022-12-11
 minutes: 3

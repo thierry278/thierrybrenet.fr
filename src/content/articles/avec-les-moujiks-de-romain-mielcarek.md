@@ -2,7 +2,7 @@
 title: "Les moujiks, de Romain Mielcarek, de l’espionnage, oui, mais pas un roman"
 dek: "Avec « Les Moujks », l’auteur nous emmène pour un long voyage où nous allons — en sa compagnie — côtoyer, manger, boire avec des espions. Cette relation va durer dix ans ! Ce livre se lit comme un roman, même si ce n’en est pas un. C’est juste une histoire vraie."
 accroche: "Avec « Les Moujks », l’auteur nous emmène pour un long voyage avec des espions, les moujiks"
-rubrique: rencontres
+rubrique: cyber
 type: article
 date: 2025-03-03
 minutes: 2

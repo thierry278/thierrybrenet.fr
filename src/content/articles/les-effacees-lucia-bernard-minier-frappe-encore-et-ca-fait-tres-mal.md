@@ -2,7 +2,7 @@
 title: "Les Effacées, Bernard Minier& Lucia frappent encore (ça fait mal !)"
 dek: "Après les Pyrénées et Martin Servaz, Bernard Minier déménage ses cauchemars en Espagne. Et franchement, les Galiciens n’avaient rien demandé. Avec “Les Effacées”, l’auteur prouve qu’il peut faire frissonner n’importe qui, n’importe où, pourvu qu’il y ait de la brume et des gens … ‘‘louches’’."
 accroche: "Profitez de l'été pour lire la deuxième aventure de Lucia, entre Madrid et la Galice"
-rubrique: rencontres
+rubrique: livres
 type: article
 date: 2025-06-27
 minutes: 2
