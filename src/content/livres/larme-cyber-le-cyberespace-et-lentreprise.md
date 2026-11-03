@@ -4,6 +4,7 @@ annee: "2022"
 image: "cyberespace-et-cyberattaque.jpg"
 ordre: 4
 coauteur: "Lucie Brenet"
+lien: "https://www.eyrolles.com/Informatique/Livre/cyberespace-et-cyberattaque-comprendre-et-se-proteger--9782124658008/"
 accroche: "Phishing, Cheval de Troie, etc, sont des armes cyber dont nous devons apprendre à nous protéger"
 articles: ["cybersecurite-meme-la-meilleure-est-crackable"]
 ---
