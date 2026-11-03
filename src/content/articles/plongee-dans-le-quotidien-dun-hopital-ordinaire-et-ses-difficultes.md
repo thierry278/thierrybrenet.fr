@@ -10,6 +10,8 @@ une: false
 brouillon: false
 image: "2022/01/effectif_en_baisse_2.png"
 image_pano: "2022/01/effectifs_en_baisse.png"
+serie: "hopital-ordinaire"
+rang: 2
 ancienne_url: "https://www.thierrybrenet.fr/article/plongee-dans-le-quotidien-dun-hopital-ordinaire-et-ses-difficultes/"
 hashtags: ["Comprendre", "Organisation"]
 ---

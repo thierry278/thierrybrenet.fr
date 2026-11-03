@@ -1,23 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
 import Carte from '../components/Carte.astro';
+import { regrouper, series } from '../data/series';
 import { articlesPublies } from '../data/articles';
 import { rubrique } from '../data/rubriques';
 import { url, lienArticle } from '../data/url';
 
-const articles = await articlesPublies();
+const articles = await regrouper(await articlesPublies());
 // La une : l'article le plus récent du vivier « une ».
 const une = articles.find((a) => a.data.une) ?? articles[0];
 const reste = articles.filter((a) => a !== une);
 const aLire = reste.slice(0, 3);
 const fil = reste.slice(3, 12);
+const titre = (a: any) => (a.data.serie ? series[a.data.serie]?.titre : undefined) ?? a.data.title;
 ---
 <Base>
   {une && (
     <section class="lead" aria-label="À la une">
       <article>
         <span class="eyebrow kicker">À la une · {rubrique(une.data.rubrique)?.label}</span>
-        <h1>{une.data.title}</h1>
+        <h1>{titre(une)}</h1>
         <p class="dek">{une.data.dek}</p>
         <a class="read" href={lienArticle(une)}>Lire l'article →</a>
         <div class="byline">{une.data.format}{une.data.minutes ? ` · ${une.data.minutes} min` : ''}</div>
@@ -26,7 +28,7 @@ const fil = reste.slice(3, 12);
         <aside class="lead-aside" aria-label="À lire aussi">
           <span class="eyebrow">À lire aussi</span>
           {aLire.map((a) => (
-            <div class="aside-item"><a href={lienArticle(a)}><span class="cat">{rubrique(a.data.rubrique)?.singulier}</span><h3>{a.data.title}</h3></a></div>
+            <div class="aside-item"><a href={lienArticle(a)}><span class="cat">{rubrique(a.data.rubrique)?.singulier}</span><h3>{titre(a)}</h3></a></div>
           ))}
         </aside>
       )}

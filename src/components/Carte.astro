@@ -1,14 +1,18 @@
 ---
 import { rubrique } from '../data/rubriques';
 import { lienArticle, image } from '../data/url';
+import { series, episodes } from '../data/series';
 const { article } = Astro.props;
 const d = article.data;
-const visuel = image(d.vignette) ?? image(d.image);
+const carte = image(d.carte);            // infographie : visuel entier, format naturel
+const visuel = carte ?? image(d.vignette) ?? image(d.image);
+const serie = d.serie ? series[d.serie] : undefined;
+const nbEpisodes = d.serie ? (await episodes(d.serie)).length : 0;
 ---
 <a class="card" href={lienArticle(article)}>
-  {visuel && <img class="card-img" src={visuel} alt="" loading="lazy" />}
+  {visuel && <img class={carte ? "card-img card-img--entiere" : "card-img"} src={visuel} alt="" loading="lazy" />}
   <span class="cat">{rubrique(d.rubrique)?.singulier}</span>
-  <h2>{d.title}</h2>
+  <h2>{serie ? serie.titre : d.title}</h2>
   <p>{d.dek}</p>
-  <span class="foot">{d.format}{d.minutes ? ` · ${d.minutes} min` : ''}</span>
+  <span class="foot">{serie ? `Série · ${nbEpisodes} épisodes` : `${d.format}${d.minutes ? ` · ${d.minutes} min` : ''}`}</span>
 </a>

@@ -9,6 +9,7 @@ une: false
 brouillon: false
 image: "2021/08/conbstruire_un_pca_pra_en_7_etapes.png"
 vignette: "vignettes/les-7-etapes-de-construction-dun-pca-pra.jpg"
+carte: "cartes/les-7-etapes-de-construction-dun-pca-pra.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/les-7-etapes-de-construction-dun-pca-pra/"
 ---

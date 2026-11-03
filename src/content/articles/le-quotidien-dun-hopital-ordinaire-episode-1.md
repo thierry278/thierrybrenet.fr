@@ -10,6 +10,8 @@ une: false
 brouillon: false
 image: "2022/01/hopital_en_crise.png"
 image_pano: "2022/01/hopital_en_crise.png"
+serie: "hopital-ordinaire"
+rang: 1
 ancienne_url: "https://www.thierrybrenet.fr/article/le-quotidien-dun-hopital-ordinaire-episode-1/"
 hashtags: ["Comprendre", "Organisation"]
 ---

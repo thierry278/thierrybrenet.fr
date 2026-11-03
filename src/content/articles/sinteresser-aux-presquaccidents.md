@@ -9,6 +9,7 @@ une: false
 brouillon: false
 image: "2021/03/infographie-presqu-accidents.png"
 vignette: "vignettes/sinteresser-aux-presquaccidents.jpg"
+carte: "cartes/sinteresser-aux-presquaccidents.jpg"
 pdf: "2021/03/presqu-accidents.pdf"
 ancienne_url: "https://www.thierrybrenet.fr/infographie/sinteresser-aux-presquaccidents/"
 ---

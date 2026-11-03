@@ -20,6 +20,9 @@ const articles = defineCollection({
     image: z.string().optional(),       // chemin dans /uploads/ (visuel principal)
     image_pano: z.string().optional(),
     vignette: z.string().optional(),
+    carte: z.string().optional(),       // visuel de carte au format naturel (infographies : rien n'est coupé)
+    serie: z.string().optional(),       // identifiant de série (voir src/data/series.ts)
+    rang: z.number().optional(),        // numéro de l'épisode dans la série
     pdf: z.string().optional(),
     ancienne_url: z.string().optional(),
     hashtags: z.array(z.string()).optional(),

@@ -9,6 +9,7 @@ une: false
 brouillon: false
 image: "2021/08/hyg.num_.png"
 vignette: "vignettes/hygiene-numerique-interdits-et-points-de-vigilan.jpg"
+carte: "cartes/hygiene-numerique-interdits-et-points-de-vigilan.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/hygiene-numerique-interdits-et-points-de-vigilance/"
 ---

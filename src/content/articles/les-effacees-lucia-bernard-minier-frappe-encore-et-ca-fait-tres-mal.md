@@ -8,7 +8,7 @@ date: 2025-06-27
 minutes: 2
 une: false
 brouillon: false
-image: "2025/06/0-bernard_minier_vs_martin_servaz-1.jpg"
+image: "vignettes/les-effacees-bernard-minier.jpg"
 image_pano: "2025/06/berard_minier_cree_lucia.jpg"
 ancienne_url: "https://www.thierrybrenet.fr/article/les-effacees-lucia-bernard-minier-frappe-encore-et-ca-fait-tres-mal/"
 hashtags: ["Polar"]

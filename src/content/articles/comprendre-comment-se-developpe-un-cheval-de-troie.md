@@ -9,6 +9,7 @@ une: false
 brouillon: false
 image: "2021/08/cheval_de_troie-1-e1642081562312.png"
 vignette: "vignettes/comprendre-comment-se-developpe-un-cheval-de-tro.jpg"
+carte: "cartes/comprendre-comment-se-developpe-un-cheval-de-tro.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/comprendre-comment-se-developpe-un-cheval-de-troie/"
 ---

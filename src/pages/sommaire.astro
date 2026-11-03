@@ -1,8 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import Carte from '../components/Carte.astro';
+import { regrouper } from '../data/series';
 import { articlesPublies } from '../data/articles';
-const liste = await articlesPublies();
+const liste = await regrouper(await articlesPublies());
 ---
 <Base title="Sommaire">
   <section class="fil">

@@ -9,6 +9,7 @@ une: false
 brouillon: false
 image: "2021/08/infographie_hackers_et_pirates_les_7_familles.png"
 vignette: "vignettes/cyberpirates-hackers-etc-le-jeu-des-7-famillescy.jpg"
+carte: "cartes/cyberpirates-hackers-etc-le-jeu-des-7-famillescy.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/cyberpirates-hackers-etc-le-jeu-des-7-famillescyberpirates/"
 ---

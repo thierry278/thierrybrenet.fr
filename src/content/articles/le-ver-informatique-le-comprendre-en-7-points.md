@@ -9,6 +9,7 @@ une: false
 brouillon: false
 image: "2021/08/le_ver_informatique-1.png"
 vignette: "vignettes/le-ver-informatique-le-comprendre-en-7-points.jpg"
+carte: "cartes/le-ver-informatique-le-comprendre-en-7-points.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/le-ver-informatique-le-comprendre-en-7-points/"
 ---

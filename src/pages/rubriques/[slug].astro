@@ -2,13 +2,14 @@
 import Base from '../../layouts/Base.astro';
 import Carte from '../../components/Carte.astro';
 import { articlesPublies } from '../../data/articles';
+import { regrouper } from '../../data/series';
 import { rubriques } from '../../data/rubriques';
 
 export async function getStaticPaths() {
   return rubriques.map((r) => ({ params: { slug: r.slug }, props: { r } }));
 }
 const { r } = Astro.props;
-const liste = (await articlesPublies()).filter((a) => a.data.rubrique === r.slug);
+const liste = await regrouper((await articlesPublies()).filter((a) => a.data.rubrique === r.slug));
 ---
 <Base title={r.label}>
   <section class="fil">

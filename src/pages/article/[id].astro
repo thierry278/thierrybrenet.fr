@@ -3,7 +3,8 @@ import Base from '../../layouts/Base.astro';
 import { render } from 'astro:content';
 import { articlesPublies, dateFr } from '../../data/articles';
 import { rubrique } from '../../data/rubriques';
-import { url, lienRubrique, image } from '../../data/url';
+import { url, lienRubrique, lienArticle, image } from '../../data/url';
+import { series, episodes } from '../../data/series';
 
 export async function getStaticPaths() {
   const articles = (await articlesPublies()).filter((a) => a.data.type === 'article');
@@ -15,6 +16,8 @@ const r = rubrique(d.rubrique);
 const visuel = image(d.image);
 const apercu = image(d.vignette) ?? visuel; // aperçu LinkedIn : vignette 1,91:1 quand elle existe
 const { Content } = await render(article);
+const serie = d.serie ? series[d.serie] : undefined;
+const eps = d.serie ? await episodes(d.serie) : [];
 ---
 <Base title={d.title} description={d.dek} image={apercu} date={d.date}>
   <article class="article">
@@ -24,6 +27,16 @@ const { Content } = await render(article);
     <div class="byline">{dateFr(d.date)}{d.minutes ? ` · ${d.minutes} min de lecture` : ''}</div>
     {visuel && <img class="visuel" src={visuel} alt="" loading="eager" />}
     <div class="corps"><Content /></div>
+    {serie && (
+      <div class="serie" role="navigation" aria-label="Série">
+        <span class="eyebrow">Série · {serie.titre}</span>
+        <ol>{eps.map((e) => (
+          <li aria-current={e.id === article.id ? 'page' : undefined}>
+            {e.id === article.id ? e.data.title : <a href={lienArticle(e)}>{e.data.title}</a>}
+          </li>
+        ))}</ol>
+      </div>
+    )}
     <div class="pied-article">
       <a class="retour" href={url()}>← Retour à la revue</a>
       <img class="signature-logo" src={url('images/logo-thierrybrenet.png').replace(/\/$/, '')} alt="Thierry Brenet" width="544" height="265">

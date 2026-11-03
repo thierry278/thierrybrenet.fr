@@ -10,6 +10,8 @@ une: false
 brouillon: false
 image: "2022/02/perversiondusysteme-1.png"
 image_pano: "2022/02/perversiondusysteme-2.png"
+serie: "hopital-ordinaire"
+rang: 3
 ancienne_url: "https://www.thierrybrenet.fr/article/plongee-dans-le-quotidien-dun-hopital-ordinaire-episode-3/"
 hashtags: ["Comprendre", "Organisation", "RH"]
 ---

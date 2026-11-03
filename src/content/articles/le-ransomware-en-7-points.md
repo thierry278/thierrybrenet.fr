@@ -9,6 +9,7 @@ une: false
 brouillon: false
 image: "2021/08/le_ransomware_en_7_points-1.png"
 vignette: "vignettes/le-ransomware-en-7-points.jpg"
+carte: "cartes/le-ransomware-en-7-points.jpg"
 pdf: ""
 ancienne_url: "https://www.thierrybrenet.fr/infographie/le-ransomware-en-7-points/"
 ---
