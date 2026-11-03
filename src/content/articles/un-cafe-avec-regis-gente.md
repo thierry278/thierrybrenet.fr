@@ -2,7 +2,7 @@
 title: "Un café avec Régis Genté"
 dek: "Après vous avoir présenté le livre de Régis Genté — Notre homme à Washington — il m’a semblé intéressant de déplacer le projecteur vers son auteur. C’est un spécialiste du monde soviétique et des pays de cette ex-URSS. Et là réside le grand intérêt de son livre, analyser Trump, en partant du comportement russe."
 accroche: "Régis Genté, ce spécialiste de l'exURSS qui scanne D. Trump avec cette grille d'analyse"
-rubrique: geopolitique
+rubrique: rencontres
 type: article
 date: 2024-11-18
 minutes: 5

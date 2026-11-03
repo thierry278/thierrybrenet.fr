@@ -2,7 +2,7 @@
 title: "La qualité au musée !"
 dek: "La qualité serait elle quelque chose de trop sérieux pour la laisser aux qualiticiens ? Non, évidemment. Par contre, à côté de celles et ceux qui ont fait de ce domaine leur métier, j’aime aussi écouter d’autres personnes que l’on n’attend pas forcément sur ce sujet. Aujourd’hui, la parole est à Alexandra."
 accroche: "Alexandra nous parle de qualité dans un monde feutré..."
-rubrique: rencontres
+rubrique: entreprises
 type: article
 date: 2021-03-20
 minutes: 3

@@ -2,7 +2,7 @@
 title: "Ce que sont les armes futuristes dans notre monde  en guerre"
 dek: "La guerre qui se déroule en Ukraine nous amène à découvrir des ‘‘armes’’, sans toujours comprendre leur usage. Partant de ce constat, il m’a semblé intéressant de décrire et expliquer ce que sont ces armes au sens large, qui vont du drone aux munitions guidées, en passant par les missiles hypersoniques."
 accroche: "Pour mieux comprendre ce que les militaires nous disent des armes d'aujourd'hui et de demain"
-rubrique: entreprises
+rubrique: geopolitique
 type: article
 date: 2022-06-14
 minutes: 3

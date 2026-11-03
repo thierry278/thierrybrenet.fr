@@ -2,7 +2,7 @@
 title: "Armes d'aujourd'hui - Ep2 : les drones"
 dek: "Avec les drones, suite de ma série dédiée aux armes de guerre d’aujourd’hui.  Beaucoup plus connus que d’autres armes actuelles parce que présents dans notre quotidien, ils nous réservent cependant bien des surprises. Je vous les présente, qu'ils soient grands ou petits et même minuscules."
 accroche: "Les drones de toutes les missions dans les airs, mais pas que..."
-rubrique: entreprises
+rubrique: geopolitique
 type: article
 date: 2022-07-20
 minutes: 10

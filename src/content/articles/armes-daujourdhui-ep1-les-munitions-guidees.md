@@ -2,7 +2,7 @@
 title: "Armes d'aujourd'hui - Ep1 : les munitions guidées"
 dek: "Premier article d’une série dédiée aux armes de guerre d’aujourd’hui, « Les MUNITIONS GUIDÉES ». Son but est de vous expliquer dans une langue simple ce que sont les cartouches et autres obus actuels. Apprêtez-vous à découvrir un autre monde, mais sans emprunter le jargon des spécialistes."
 accroche: "Pour comprendre ces \"munitions guidées\" tellement nécessaires à nos armées"
-rubrique: entreprises
+rubrique: geopolitique
 type: article
 date: 2022-07-03
 minutes: 5

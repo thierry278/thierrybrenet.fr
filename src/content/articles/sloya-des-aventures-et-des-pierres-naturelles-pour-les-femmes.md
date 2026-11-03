@@ -2,7 +2,7 @@
 title: "SLOYA, des aventures et des pierres naturelles pour les femmes"
 dek: "Notre fréquentation des mondes numériques banalise les achats que nous y faisons, des sneakers aux vacances et même aux bijoux. Loïc et Jordan l’ont bien compris en créant Sloya pour commercialiser leurs bijoux faits de pierres naturelles. Sloya est aussi la somme de leurs valeurs et de leurs racines."
 accroche: "Sloya ou la belle aventure de deux amoureux des pierres"
-rubrique: rencontres
+rubrique: entreprises
 type: article
 date: 2024-07-18
 minutes: 4
