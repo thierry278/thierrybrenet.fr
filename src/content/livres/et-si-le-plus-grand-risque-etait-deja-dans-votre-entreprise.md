@@ -3,6 +3,7 @@ title: "Et si le plus grand risque était déjà dans votre entreprise ?"
 annee: "2024"
 image: "et-si-le-plus-grand-risque.jpg"
 ordre: 5
+lien: "https://www.eyrolles.com/Entreprise/Livre/et-si-le-plus-grand-risque-etait-deja-dans-votre-entreprise--9782124658756/"
 ---
 
 Mon dernier livre, *Et si le plus grand risque était déjà dans votre entreprise ?*, est hélas toujours d'actualité, même s'il s'est écoulé un peu de temps depuis sa sortie. Les risques se bousculent toujours à l'horizon, les échanges sont de moins en moins apaisés, et il en reste un qui peut progresser sans souci à l'intérieur des entreprises, tant celles-ci doivent regarder ailleurs : le désengagement des salariés.
