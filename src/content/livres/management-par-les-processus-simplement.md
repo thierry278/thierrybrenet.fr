@@ -1,7 +1,7 @@
 ---
 title: "Management par les processus, simplement !"
 annee: "2020"
-image: "management-par-les-processus-brenet.png"
+image: "management-recadre.png"
 ordre: 3
 lien: "https://www.boutique.afnor.org/livre/gestion-par-les-processus-votre-guide-le-processus-un-couteau-suisse-pour-gerer-de-multiples-situations/article/938128/fa199912"
 accroche: "Le processus, un couteau suisse pour gérer de multiples situations"

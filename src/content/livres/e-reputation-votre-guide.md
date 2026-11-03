@@ -1,7 +1,7 @@
 ---
 title: "E-réputation, votre guide !"
 annee: "2011"
-image: "erputatio-livre-brenet.png"
+image: "e-reputation-recadre.png"
 ordre: 2
 lien: "https://www.boutique.afnor.org/book/-/article/787720/fa092239"
 accroche: "Se soucier de ce que l'on dit de nous sur internet ? Oui. Mais construire également sa e-réputation"
