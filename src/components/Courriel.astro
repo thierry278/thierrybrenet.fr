@@ -1,0 +1,20 @@
+---
+// Adresse de contact écrite en deux morceaux dans le HTML, recollée par un
+// petit script au chargement de la page. Un robot de collecte qui ne lit que
+// le code source ne trouve ni « mailto: » ni l'adresse entière. Sans script,
+// le lecteur voit l'adresse avec « [arobase] » à la place du signe @.
+// Protection légère, pas une garantie.
+const utilisateur = 'thierrybrenet.auteur';
+const domaine = 'gmail.com';
+---
+<span class="courriel" data-u={utilisateur} data-d={domaine}>{utilisateur} [arobase] {domaine}</span>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.courriel[data-u][data-d]').forEach((el) => {
+    const adresse = `${el.dataset.u}@${el.dataset.d}`;
+    const lien = document.createElement('a');
+    lien.href = `mailto:${adresse}`;
+    lien.textContent = adresse;
+    el.replaceWith(lien);
+  });
+</script>

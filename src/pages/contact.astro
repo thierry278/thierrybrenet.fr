@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Courriel from '../components/Courriel.astro';
 ---
 <Base title="Contact" description="Écrire à Thierry Brenet, journaliste indépendant et auteur.">
   <article class="article">
@@ -7,7 +8,7 @@ import Base from '../layouts/Base.astro';
     <h1>M'écrire</h1>
     <div class="corps">
       <p>Une question sur un article, une commande, un sujet que vous voudriez voir traité : le plus simple est un courriel.</p>
-      <p class="contact-ligne"><a href="mailto:thierrybrenet.auteur@gmail.com">thierrybrenet.auteur@gmail.com</a></p>
+      <p class="contact-ligne"><Courriel /></p>
       <p>Vous pouvez aussi suivre mes publications et m'écrire sur
         {' '}<a href="https://www.linkedin.com/in/thierrybrenet-auteur/" rel="noopener">LinkedIn</a>.</p>
     </div>
