@@ -1,0 +1,58 @@
+# Configuration de l'éditeur Pages CMS (app.pagescms.org) : interface d'édition des articles.
+# Les champs ci-dessous reprennent exactement ceux de src/content.config.ts, pour que rien ne soit perdu à l'enregistrement.
+media:
+  input: public/uploads
+  output: /uploads
+
+content:
+  - name: articles
+    label: Articles
+    type: collection
+    path: src/content/articles
+    filename: "{primary}.md"
+    format: yaml-frontmatter
+    view:
+      fields: [title, rubrique, date, brouillon]
+      primary: title
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - { name: title, label: Titre, type: string }
+      - { name: dek, label: Chapô (intro), type: text }
+      - { name: accroche, label: Accroche LinkedIn, type: text }
+      - name: rubrique
+        label: Rubrique
+        type: select
+        options:
+          values:
+            - { value: rencontres, label: Rencontres }
+            - { value: geopolitique, label: Géopolitique }
+            - { value: cyber, label: Cyber & Num }
+            - { value: entreprises, label: Entreprises }
+            - { value: sciences-sante, label: Sciences et santé }
+            - { value: livres, label: Livres }
+            - { value: coup-doeil, label: Autres formats }
+            - { value: divers, label: Divers }
+      - name: type
+        label: Type
+        type: select
+        options:
+          values: [article, infographie, video]
+      - { name: format, label: Format, type: string }
+      - { name: date, label: Date, type: date, options: { format: yyyy-MM-dd } }
+      - { name: minutes, label: Minutes de lecture, type: number }
+      - { name: une, label: À la une, type: boolean }
+      - { name: brouillon, label: Brouillon (non publié), type: boolean }
+      - { name: image, label: Visuel (chemin dans uploads, ex. 2026/11/nom.jpg), type: string }
+      - { name: image_pano, label: Visuel panoramique, type: string }
+      - { name: vignette, label: Vignette 1200×627, type: string }
+      - { name: carte, label: Visuel de carte, type: string }
+      - { name: serie, label: Série (identifiant), type: string }
+      - { name: rang, label: Numéro d'épisode, type: number }
+      - { name: pdf, label: PDF, type: string }
+      - { name: youtube, label: YouTube, type: string }
+      - { name: ancienne_url, label: Ancienne adresse, type: string }
+      - { name: hashtags, label: Hashtags, type: string, list: true }
+      - { name: body, label: Texte de l'article, type: rich-text }
