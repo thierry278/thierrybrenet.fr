@@ -16,6 +16,8 @@ const r = rubrique(d.rubrique);
 const visuel = image(d.image);
 const apercu = image(d.vignette) ?? visuel; // aperçu LinkedIn : vignette 1,91:1 quand elle existe
 const { Content } = await render(article);
+const fichier = article.filePath ?? `src/content/articles/${article.id}.md`;
+const lienEdition = `https://github.com/thierry278/thierrybrenet.fr/edit/main/${fichier}`;
 const serie = d.serie ? series[d.serie] : undefined;
 const eps = d.serie ? await episodes(d.serie) : [];
 ---
@@ -37,9 +39,19 @@ const eps = d.serie ? await episodes(d.serie) : [];
         ))}</ol>
       </div>
     )}
+    <a id="bouton-edition" href={lienEdition} hidden style="position:fixed;right:1rem;bottom:1rem;z-index:50;background:#a3361d;color:#fff;padding:.6rem 1rem;border-radius:6px;font:600 .9rem Inter,sans-serif;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.3)">✎ Modifier cet article</a>
     <div class="pied-article">
       <a class="retour" href={url()}>← Retour à la revue</a>
       <img class="signature-logo" src={url('images/logo-thierrybrenet.png').replace(/\/$/, '')} alt="Thierry Brenet" width="544" height="265">
     </div>
   </article>
 </Base>
+<script is:inline>
+  // Bouton réservé à l'auteur : s'active en ajoutant ?editer à l'adresse (une fois par navigateur), se coupe avec ?editer=non
+  try {
+    var q = new URLSearchParams(location.search).get('editer');
+    if (q === 'non') localStorage.removeItem('editeur');
+    else if (q !== null) localStorage.setItem('editeur', '1');
+    if (localStorage.getItem('editeur') === '1') document.getElementById('bouton-edition').hidden = false;
+  } catch (e) {}
+</script>
