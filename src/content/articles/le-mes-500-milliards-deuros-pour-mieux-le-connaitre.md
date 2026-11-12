@@ -7,7 +7,7 @@ type: article
 format: Article
 date: 2026-11-13
 minutes: 3
-une: false
+une: true
 brouillon: false
 image: "2026/11/mes-pompiers.jpg"
 hashtags: ["Comprendre", "Europe"]
